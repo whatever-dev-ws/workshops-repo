@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "luciornick-type-tool-f-7adlm0",
+      "author": "luciornick",
+      "name": "3D_animated_Type_Tool",
+      "description": "A tool where u can type, make animation type, type with shape and also type in the 3 dimension and chose the dimension of the canvas",
+      "model": "Gemini 3 Pro",
+      "url": "tools/luciornick-type-tool-f-7adlm0.js",
+      "uploadedAt": "2026-01-21T14:04:36.811Z"
+    },
+    {
       "id": "luciornick-gif-maker-w-uf7i0t",
       "author": "luciornick",
       "name": "Gif_Maker",
