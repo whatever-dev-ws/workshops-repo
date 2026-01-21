@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "chiaracres-type-ijwnq6",
+      "author": "chiaracres",
+      "name": "Type designer tool",
+      "description": "A powerful tool for crafting dynamic, animated typography with deep parametric customization.",
+      "model": "Gemini 3 Pro",
+      "url": "tools/chiaracres-type-ijwnq6.js",
+      "uploadedAt": "2026-01-21T16:22:16.327Z"
+    },
+    {
       "id": "amelindotheduke-spinningbrushdash-zgmdx5",
       "author": "AmelindoTheDuke",
       "name": "SpinningBrushdash",
