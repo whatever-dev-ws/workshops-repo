@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "emilysupremacy-brush-tool-tcmhn1",
+      "author": "emilysupremacy",
+      "name": "Basic Brush",
+      "description": "Like any other paint tool but frames your artwork in a golden frame. And the eraser is in the shape of a star.",
+      "model": "Gemini 3",
+      "url": "tools/emilysupremacy-brush-tool-tcmhn1.js",
+      "uploadedAt": "2026-01-21T13:58:14.602Z"
+    },
+    {
       "id": "maudgrn-type-tool-bfro2t",
       "author": "maudgrn",
       "name": "type tool",
