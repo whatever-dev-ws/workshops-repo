@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "tatacherubin-raster-cherubin-chiara-dz1rr3",
+      "author": "TataCherubin",
+      "name": "The Best, raster tool",
+      "description": "Transform your photos into retro-digital masterpieces with The Best Image Rasterizer! Choose from iconic styles like Dot Raster, Grainy Film, and ASCII Text, or unleash your inner artist with the Andy Warhol Mode and Slice & Repeat glitch engine. Now featuring Original Color support and Pulsing Halftone animations—exportable as High-Res PNGs or GIFs!",
+      "model": "Gemini 3 Pro",
+      "url": "tools/tatacherubin-raster-cherubin-chiara-dz1rr3.js",
+      "uploadedAt": "2026-01-21T16:02:57.000Z"
+    },
+    {
       "id": "amelindotheduke-3dmirrorfont-mmj13q",
       "author": "AmelindoTheDuke",
       "name": "3DMirrorFont",
