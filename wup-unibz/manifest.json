@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "nrity-rasta-ixiv1z",
+      "author": "Nrity",
+      "name": "Raster Studio",
+      "description": "A tool that lets you personalize your images with cool effects.",
+      "model": "Gemini 3",
+      "url": "tools/nrity-rasta-ixiv1z.js",
+      "uploadedAt": "2026-01-21T22:15:38.713Z"
+    },
+    {
       "id": "nrity-typo-2mt2wr",
       "author": "Nrity",
       "name": "SKIBIDI",
