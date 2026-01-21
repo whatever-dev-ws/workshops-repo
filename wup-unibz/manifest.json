@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "andreabinanzer-animation-tool-yi8p8c",
+      "author": "andreabinanzer",
+      "name": "Animation Tool",
+      "description": "Create a moving picture by using a drawing of your own or importing an image. Experiment with different motion patterns and visual effects to bring your static art to life and export your final loop as a high-quality GIF.",
+      "model": "Gemini 3",
+      "url": "tools/andreabinanzer-animation-tool-yi8p8c.js",
+      "uploadedAt": "2026-01-21T15:09:39.881Z"
+    },
+    {
       "id": "annalena-psenner-giftool-ivwzt4",
       "author": "annalena",
       "name": "Giggles",
