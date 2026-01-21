@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "amelindotheduke-3dmirrorfont-0nfyu0",
+      "author": "AmelindoTheDuke",
+      "name": "3DMirrorFont",
+      "description": "A 3d writings generator, make your fonts 3D! Also there is a mirror function to make the writings infinite",
+      "model": "Gemini3 Pro",
+      "url": "tools/amelindotheduke-3dmirrorfont-0nfyu0.js",
+      "uploadedAt": "2026-01-21T16:06:06.651Z"
+    },
+    {
       "id": "amelindotheduke-3dmirrorfont-bl3ow3",
       "author": "AmelindoTheDuke",
       "name": "3DMirrorFont",
