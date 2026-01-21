@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "castoro-text-p5jstool-avufgv",
+      "author": "castoro",
+      "name": "Waves",
+      "description": "a typing tool that converts text into three dimentional, multi-colored waves",
+      "model": "Google Gemini",
+      "url": "tools/castoro-text-p5jstool-avufgv.js",
+      "uploadedAt": "2026-01-21T14:31:36.072Z"
+    },
+    {
       "id": "julie-l-speedoflight-giftool-1xzja0",
       "author": "Julie L",
       "name": "SPEED OF LIGHT",
