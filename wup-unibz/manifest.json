@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "mees-jonker-brush-tool-khslch",
+      "author": "Mees Jonker",
+      "name": "Brush_Tool",
+      "description": "Brush tool that allows to draw lines following predetremined snap angles. It allows straight lines and arcs.",
+      "model": "Gemini Pro",
+      "url": "tools/mees-jonker-brush-tool-khslch.js",
+      "uploadedAt": "2026-01-21T16:36:19.391Z"
+    },
+    {
       "id": "animationgif-gifanimation-47tukq",
       "author": "AnimationGif",
       "name": "Gif_Tool",
