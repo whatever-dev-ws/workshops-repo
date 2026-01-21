@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "angela-angela-santolini-type-ecjdoq",
+      "author": "angela",
+      "name": "Contrast",
+      "description": "With this tool, you can write anything you want using special fonts. You can also use lenses to turn the text into a negative image",
+      "model": "Gemini 3",
+      "url": "tools/angela-angela-santolini-type-ecjdoq.js",
+      "uploadedAt": "2026-01-21T14:20:12.847Z"
+    },
+    {
       "id": "alania-alien-kinetic-typo-6fxq23",
       "author": "Alania Alien",
       "name": "Kinetic Typo",
