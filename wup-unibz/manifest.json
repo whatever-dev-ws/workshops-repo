@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "marinaldi-strumento-raster-yberow",
+      "author": "Marinaldi",
+      "name": "Raster tool - geometric based raster",
+      "description": "A raster tool which allows the person using the script, use a  geometric based raster, where you can change shape of the geometrics thanks to the keyboards and also click on the canva to change the size of the shapes of the raster",
+      "model": "Gemini 3 (flash)",
+      "url": "tools/marinaldi-strumento-raster-yberow.js",
+      "uploadedAt": "2026-01-21T13:56:03.666Z"
+    },
+    {
       "id": "cv-symflow-7w4q7b",
       "author": "cv",
       "name": "Symflow",
