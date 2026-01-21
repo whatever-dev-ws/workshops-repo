@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "amelindotheduke-spinningbrushdash-zgmdx5",
+      "author": "AmelindoTheDuke",
+      "name": "SpinningBrushdash",
+      "description": "A brush that spins. Your image can become the brush and a old rainbow meme.",
+      "model": "Gemini3 Pro",
+      "url": "tools/amelindotheduke-spinningbrushdash-zgmdx5.js",
+      "uploadedAt": "2026-01-21T16:22:12.493Z"
+    },
+    {
       "id": "alicefederici-a-raster-tool-daav9g",
       "author": "alicefederici",
       "name": "A RASTER TOOL",
