@@ -1,0 +1,13 @@
+{
+  "tools": [
+    {
+      "id": "cv-rasterlab-9wc7v8",
+      "author": "cv",
+      "name": "RasterLab",
+      "description": "Turn images into stylized geometric color grids.",
+      "model": "Gemini Pro 3, Claude Sonnet 4.5",
+      "url": "tools/cv-rasterlab-9wc7v8.js",
+      "uploadedAt": "2026-01-21T13:27:18.700Z"
+    }
+  ]
+}
