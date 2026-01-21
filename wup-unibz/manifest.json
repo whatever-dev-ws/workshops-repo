@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "sophiefeichter-text-tool-xvhkoa",
+      "author": "sophiefeichter",
+      "name": "Master Type",
+      "description": "This Type tool allows you to write anything in the font, the color, the style and the effect you desire.",
+      "model": "Gemini",
+      "url": "tools/sophiefeichter-text-tool-xvhkoa.js",
+      "uploadedAt": "2026-01-21T14:36:08.037Z"
+    },
+    {
       "id": "t-socche-sketch-ajyu1q",
       "author": "T.Socche",
       "name": "Waving Writing",
