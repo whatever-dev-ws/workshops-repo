@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "marinaldi-primo-strumento-brush-axvz2b",
+      "author": "Marinaldi",
+      "name": "Brush tool - Melting dots",
+      "description": "A brush that allows the user to create interactive dots",
+      "model": "Gemini 3 (flash)",
+      "url": "tools/marinaldi-primo-strumento-brush-axvz2b.js",
+      "uploadedAt": "2026-01-21T13:45:33.751Z"
+    },
+    {
       "id": "turbotrevi-secretalphabet-yyv328",
       "author": "turbotrevi",
       "name": "secretalphabet",
