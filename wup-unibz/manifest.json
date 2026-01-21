@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "emilysupremacy-gif-tool-0lm6uc",
+      "author": "emilysupremacy",
+      "name": "Light Gif Tool",
+      "description": "This tool allows you to upload a png and save a gif. Your chosen image will be searched down with a spotlight.",
+      "model": "Gemini 3",
+      "url": "tools/emilysupremacy-gif-tool-0lm6uc.js",
+      "uploadedAt": "2026-01-21T14:01:18.555Z"
+    },
+    {
       "id": "sophiefeichter-raster-tool-4emiab",
       "author": "sophiefeichter",
       "name": "Infinite Raster",
