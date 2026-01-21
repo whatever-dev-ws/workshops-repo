@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "chiaracres-gif-ng31bt",
+      "author": "chiaracres",
+      "name": "Boomer gif maker",
+      "description": "Create authentic boomer vibe GIFs in seconds. Just upload a photo, add animated text, and layer it with effects and emojis for that perfect boomer look.",
+      "model": "Gemini 3 Pro",
+      "url": "tools/chiaracres-gif-ng31bt.js",
+      "uploadedAt": "2026-01-21T16:31:16.005Z"
+    },
+    {
       "id": "amelindotheduke-popartraster-107c4x",
       "author": "AmelindoTheDuke",
       "name": "PopArtRaster",
