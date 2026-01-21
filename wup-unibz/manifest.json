@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "juliel-layer0-brushtool-f8potl",
+      "author": "JulieL",
+      "name": "LAYER 0",
+      "description": "LAYER 0 is a digital canvas for experimental design and generative art. It allows you to create unique visual structures using special brushes and symmetrical reflection.",
+      "model": "Gemini 3",
+      "url": "tools/juliel-layer0-brushtool-f8potl.js",
+      "uploadedAt": "2026-01-21T14:29:50.780Z"
+    },
+    {
       "id": "hzischg-giftool-p198qh",
       "author": "HZischg",
       "name": "3D Motion Studio",
