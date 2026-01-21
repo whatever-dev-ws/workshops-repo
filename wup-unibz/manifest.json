@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "navadosha-animation-tool-a6lp2s",
+      "author": "Navadosha",
+      "name": "Animation_Tool",
+      "description": "It creates a Kaleidoskope wich u can deform and change the color of it and save it as GIF",
+      "model": "Perplexity Pro",
+      "url": "tools/navadosha-animation-tool-a6lp2s.js",
+      "uploadedAt": "2026-01-21T16:42:06.817Z"
+    },
+    {
       "id": "alicefederici-a-type-tool-gernt8",
       "author": "alicefederici",
       "name": "A TYPE TOOL",
