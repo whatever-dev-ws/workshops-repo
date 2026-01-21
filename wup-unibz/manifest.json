@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "bernardi-elisa-fibotext-qy32lf",
+      "author": "Bernardi_Elisa",
+      "name": "Fibotext",
+      "description": "Fibotext liberates your words, transforming static text into dynamic visual sculptures, surpassing the same old, dull linear script.\r\n\r\nProject your typography onto spheres, cylinders, or the elegant sweep of the Fibonacci spiral, crafting breathtaking 3D layouts in seconds.",
+      "model": "Gemini 3 PRO",
+      "url": "tools/bernardi-elisa-fibotext-qy32lf.js",
+      "uploadedAt": "2026-01-21T22:58:46.471Z"
+    },
+    {
       "id": "bernardi-elisa-analogix-7k9dp3",
       "author": "Bernardi_Elisa",
       "name": "Analogix",
