@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "navadosha-type-tool-ix8fsm",
+      "author": "Navadosha",
+      "name": "Type_Tool",
+      "description": "You can edit the text inform of shapes size, color, disorting, add paths, make it move and much more.",
+      "model": "Perplexity Pro",
+      "url": "tools/navadosha-type-tool-ix8fsm.js",
+      "uploadedAt": "2026-01-21T16:49:39.489Z"
+    },
+    {
       "id": "mees-jonker-gif-tool-ukakvx",
       "author": "Mees Jonker",
       "name": "Gif_Tool",
