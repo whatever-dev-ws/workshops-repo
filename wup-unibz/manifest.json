@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "bernardi-elisa-find-my-caries-poc1tp",
+      "author": "Bernardi_Elisa",
+      "name": "Find my caries!",
+      "description": "My creative process began with the study of traditional industrial gears composed of smaller,complex cogwheels. I decided to subvert the cold, mechanical nature of the machine by transforming its most essential parts, that allow the gears to lock together. By replacing metal components with human teeth, the structure mutates into something more alive and organic.\r\n\r\nI brought this surreal creation to life using p5.js, making it the protagonist of a three-level game. The gameplay focuses on an inspection of the rotating wheel to find and destroy all the cavities hidden within the teeth. By eliminating these \"errors\" or infections while the wheel is\r\nin motion, the player helps the toothed gear achieve a \"perfect smile.\"\r\nThis work explores the boundary between the artificial and the natural, turning a repetitive mechanical motion into a struggle for hygiene and perfection.",
+      "model": "Gemini 3 PRO",
+      "url": "tools/bernardi-elisa-find-my-caries-poc1tp.js",
+      "uploadedAt": "2026-01-21T23:00:42.089Z"
+    },
+    {
       "id": "bernardi-elisa-fibotext-qy32lf",
       "author": "Bernardi_Elisa",
       "name": "Fibotext",
