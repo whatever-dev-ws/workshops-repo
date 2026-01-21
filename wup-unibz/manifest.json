@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "marinaldi-strumento-kinetype-vr8w5z",
+      "author": "Marinaldi",
+      "name": "Kinetype tool - terminal-like-minigames",
+      "description": "A kinetype tool/game whre you can interact with a kinetype \"fronthand\" and then also access to a \"backhand\" terminal whre you can play different \"kinetype\" themed-like-minigames",
+      "model": "Gemini 3 (flash)",
+      "url": "tools/marinaldi-strumento-kinetype-vr8w5z.js",
+      "uploadedAt": "2026-01-21T13:59:16.060Z"
+    },
+    {
       "id": "emilysupremacy-text-tool-5w8wfo",
       "author": "emilysupremacy",
       "name": "Talk to Terrific Text Tool",
