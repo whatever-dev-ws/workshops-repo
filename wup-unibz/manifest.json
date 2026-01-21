@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "amelindotheduke-popartraster-107c4x",
+      "author": "AmelindoTheDuke",
+      "name": "PopArtRaster",
+      "description": "With this your raster wont be just a raster but also a pop art filter. There is also a little interaction when you pass with the mouse on the dots.",
+      "model": "Gemini3 Pro",
+      "url": "tools/amelindotheduke-popartraster-107c4x.js",
+      "uploadedAt": "2026-01-21T16:30:25.746Z"
+    },
+    {
       "id": "chiaracres-raster-rk8wmz",
       "author": "chiaracres",
       "name": "Best image rasterizer",
