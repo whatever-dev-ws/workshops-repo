@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "bi-brush-j7gbko",
+      "author": "Bi",
+      "name": "Graffiti studio",
+      "description": "With this tool you will be able to become a graffiti artist. You can upload your png stencil and change the background of your murals.",
+      "model": "Gemini 3",
+      "url": "tools/bi-brush-j7gbko.js",
+      "uploadedAt": "2026-01-21T22:19:43.996Z"
+    },
+    {
       "id": "chiaracres-type-designer-tool-8qfnos",
       "author": "chiaracres",
       "name": "Type designer tool",
