@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "alicefederici-a-type-tool-gernt8",
+      "author": "alicefederici",
+      "name": "A TYPE TOOL",
+      "description": "A perfect tool for creating simple yet striking typographic posters, with strong visual impact and a clean, expressive style.",
+      "model": "Gemini 3",
+      "url": "tools/alicefederici-a-type-tool-gernt8.js",
+      "uploadedAt": "2026-01-21T16:41:09.759Z"
+    },
+    {
       "id": "mees-jonker-type-tool-rl0hst",
       "author": "Mees Jonker",
       "name": "Type_Tool",
