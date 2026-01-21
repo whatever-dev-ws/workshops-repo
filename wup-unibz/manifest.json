@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "eliasbschorr-picture-mixer-raster-tool-elia-8ottug",
+      "author": "eliasbschorr",
+      "name": "Picture Mixer Raster",
+      "description": "Mix two pictures with each other by putting them in a raster out of different customizable shapes.",
+      "model": "Gemini 3",
+      "url": "tools/eliasbschorr-picture-mixer-raster-tool-elia-8ottug.js",
+      "uploadedAt": "2026-01-21T15:08:13.810Z"
+    },
+    {
       "id": "eliasbschorr-loop-painter-brush-tool-elias--r6yo2o",
       "author": "eliasbschorr",
       "name": "Loop Painter",
