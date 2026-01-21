@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "sas-type-glioxt",
+      "author": "sas",
+      "name": "Negative type",
+      "description": "A type tool that allows you to play around with negative colors on pictures. You can type, put shapes or just draw on it. Your imagination is the limit!",
+      "model": "Gemini 3",
+      "url": "tools/sas-type-glioxt.js",
+      "uploadedAt": "2026-01-21T15:09:53.592Z"
+    },
+    {
       "id": "andreabinanzer-animation-tool-yi8p8c",
       "author": "andreabinanzer",
       "name": "Animation Tool",
