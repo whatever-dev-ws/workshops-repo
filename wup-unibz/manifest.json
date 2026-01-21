@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "sophiefeichter-gif-tool-ep8jo2",
+      "author": "sophiefeichter",
+      "name": "Motion Gif",
+      "description": "This tool allows you to create personal gifs with different shapes, colors, fonts and you can even regulate the speed of the gif.",
+      "model": "Gemini",
+      "url": "tools/sophiefeichter-gif-tool-ep8jo2.js",
+      "uploadedAt": "2026-01-21T14:38:41.373Z"
+    },
+    {
       "id": "maudgrn-tap-game-35oeek",
       "author": "maudgrn",
       "name": "tap game",
