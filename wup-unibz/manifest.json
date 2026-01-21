@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "chiaracres-brush-zorjbv",
+      "author": "chiaracres",
+      "name": "Particle dynamics",
+      "description": "An interactive canvas that creates particle-inspired art driven by the cursor.",
+      "model": "Gemini Pro 3",
+      "url": "tools/chiaracres-brush-zorjbv.js",
+      "uploadedAt": "2026-01-21T16:23:44.307Z"
+    },
+    {
       "id": "chiaracres-type-ijwnq6",
       "author": "chiaracres",
       "name": "Type designer tool",
