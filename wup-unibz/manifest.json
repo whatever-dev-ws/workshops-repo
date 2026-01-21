@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "animationgif-gifanimation-47tukq",
+      "author": "AnimationGif",
+      "name": "Gif_Tool",
+      "description": "Animation brush tool that allows to draw animations with infinite amount of frames.",
+      "model": "Gemini Pro",
+      "url": "tools/animationgif-gifanimation-47tukq.js",
+      "uploadedAt": "2026-01-21T16:31:59.907Z"
+    },
+    {
       "id": "chiaracres-gif-ng31bt",
       "author": "chiaracres",
       "name": "Boomer gif maker",
