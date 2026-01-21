@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "bi-type-caiwj2",
+      "author": "Bi",
+      "name": "Collage",
+      "description": "With this tool your text will be similar to a collage, every letter will be different to each other and they will have a rectangular outline.",
+      "model": "Gemini 3",
+      "url": "tools/bi-type-caiwj2.js",
+      "uploadedAt": "2026-01-21T22:22:09.442Z"
+    },
+    {
       "id": "bi-brush-j7gbko",
       "author": "Bi",
       "name": "Graffiti studio",
