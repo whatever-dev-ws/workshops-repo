@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "luca-tomaselli-raster-tool-jq3mn2",
+      "author": "Luca Tomaselli",
+      "name": "Raster",
+      "description": "a funny but simple raster tool",
+      "model": "Gemini 3 pro",
+      "url": "tools/luca-tomaselli-raster-tool-jq3mn2.js",
+      "uploadedAt": "2026-01-21T14:18:32.122Z"
+    },
+    {
       "id": "dbono-daniele-bonometti-raster-8ayabq",
       "author": "DBono",
       "name": "Raster",
