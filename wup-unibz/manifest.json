@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "ema-just-type-something-k206vg",
+      "author": "Ema",
+      "name": "Just type",
+      "description": "Modify, multiply and manipulate.\r\nYou can do stuff with text add, move it around, change it and have fun!\r\nIts kinda mid.",
+      "model": "Gemini 3",
+      "url": "tools/ema-just-type-something-k206vg.js",
+      "uploadedAt": "2026-01-21T21:59:51.539Z"
+    },
+    {
       "id": "ema-crazy-brush-bd5fo7",
       "author": "Ema",
       "name": "Crazy brush",
