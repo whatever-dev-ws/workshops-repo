@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "sas-animation-0hmb3i",
+      "author": "sas",
+      "name": "Double-layered gif",
+      "description": "An easy way to make a double-layered gif. Import your videos and have instantly a very nice and aesthetic gif.",
+      "model": "Gemini 3",
+      "url": "tools/sas-animation-0hmb3i.js",
+      "uploadedAt": "2026-01-21T15:17:31.693Z"
+    },
+    {
       "id": "eliasbschorr-loop-fantasy-type-tool-elias-b-mo6uk1",
       "author": "eliasbschorr",
       "name": "Loop Fantasy Type",
