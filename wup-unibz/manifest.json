@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "bi-raster-cwzaqj",
+      "author": "Bi",
+      "name": "neon raster",
+      "description": "This tool allows you to modify your files, you can modify the shape of your raster, you can edit with a brush the colors and add a neon filter.",
+      "model": "Gemini 3",
+      "url": "tools/bi-raster-cwzaqj.js",
+      "uploadedAt": "2026-01-21T22:28:12.384Z"
+    },
+    {
       "id": "bi-gif-l55jlm",
       "author": "Bi",
       "name": "mitosis",
