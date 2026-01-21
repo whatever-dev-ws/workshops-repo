@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "lara-sketchpigmenttool-hs3i9h",
+      "author": "lara",
+      "name": "PigmentTool",
+      "description": "An interactive tool that allows the user to apply various raster effects to a self-selected image and to use the microphone creatively.",
+      "model": "Gemini 3 Pro",
+      "url": "tools/lara-sketchpigmenttool-hs3i9h.js",
+      "uploadedAt": "2026-01-21T17:03:50.775Z"
+    },
+    {
       "id": "lara-sketchpigmenttool-rn5h4n",
       "author": "lara",
       "name": "PigmentTool",
