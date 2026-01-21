@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "cv-symflow-7w4q7b",
+      "author": "cv",
+      "name": "Symflow",
+      "description": "Turn simple strokes into mesmerizing mandalas and complex radial patterns.",
+      "model": "Gemini 3 Pro, Claude Sonnet 4.5",
+      "url": "tools/cv-symflow-7w4q7b.js",
+      "uploadedAt": "2026-01-21T13:54:49.540Z"
+    },
+    {
       "id": "cv-kinetype-wirnwe",
       "author": "cv",
       "name": "Kinetype",
