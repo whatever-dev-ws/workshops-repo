@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "marinaldi-secondo-strumento-brush-7jr7m1",
+      "author": "Marinaldi",
+      "name": "Brush tool - Spaghetti/hair",
+      "description": "A brush tool which allows the user to create growing lines, which can make them dance/wobble with spacebar.",
+      "model": "Gemini 3 (flash)",
+      "url": "tools/marinaldi-secondo-strumento-brush-7jr7m1.js",
+      "uploadedAt": "2026-01-21T13:47:07.525Z"
+    },
+    {
       "id": "lemonsoda-sketch-rz5gwq",
       "author": "lemonsoda",
       "name": "Image Raster",
