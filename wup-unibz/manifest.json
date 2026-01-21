@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "mees-jonker-gif-tool-ukakvx",
+      "author": "Mees Jonker",
+      "name": "Gif_Tool",
+      "description": "A Gif Animation tool that allows to make animation gifs by drawing on the canvas and adding infinite frames.",
+      "model": "Gemini Pro",
+      "url": "tools/mees-jonker-gif-tool-ukakvx.js",
+      "uploadedAt": "2026-01-21T16:49:26.912Z"
+    },
+    {
       "id": "navadosha-raster-tool-495vte",
       "author": "Navadosha",
       "name": "Raster_Tool",
