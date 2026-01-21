@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "turbotrevi-earth-fc1vke",
+      "author": "turbotrevi",
+      "name": "earth",
+      "description": "A tool that allows you to modify an imaginary area of land by raising or lowering the ground level, creating mountains or areas of water.",
+      "model": "Chat Gpt",
+      "url": "tools/turbotrevi-earth-fc1vke.js",
+      "uploadedAt": "2026-01-21T14:05:51.788Z"
+    },
+    {
       "id": "luciornick-type-tool-f-7adlm0",
       "author": "luciornick",
       "name": "3D_animated_Type_Tool",
