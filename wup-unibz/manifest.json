@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "dbono-daniele-bonometti-3d-sqjn3b",
+      "author": "DBono",
+      "name": "This is not a watch",
+      "description": "An object that started out as a clock and was subsequently transformed into an impossible object.\r\nThe time of day is always visible at the top, and the tool works as follows:\r\nthe object rotates in space for 30 seconds, increasing its speed more and more. At the end of the 30 seconds, the object creates “special effects”, then there is a 3-second countdown, and at the end of the countdown, a random game lasting 60 seconds begins.\r\nAt the end of the game, everything repeats itself in an infinite loop.",
+      "model": "Gemini 3",
+      "url": "tools/dbono-daniele-bonometti-3d-sqjn3b.js",
+      "uploadedAt": "2026-01-21T14:19:52.838Z"
+    },
+    {
       "id": "dbono-daniele-bonometti-type-d520db",
       "author": "DBono",
       "name": "Type",
