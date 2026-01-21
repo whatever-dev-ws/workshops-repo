@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "chiaracres-type-designer-tool-8qfnos",
+      "author": "chiaracres",
+      "name": "Type designer tool",
+      "description": "A powerful tool for crafting dynamic, animated typography with parametric customisation.",
+      "model": "Gemini Pro 3",
+      "url": "tools/chiaracres-type-designer-tool-8qfnos.js",
+      "uploadedAt": "2026-01-21T22:16:36.195Z"
+    },
+    {
       "id": "nrity-rasta-ixiv1z",
       "author": "Nrity",
       "name": "Raster Studio",
