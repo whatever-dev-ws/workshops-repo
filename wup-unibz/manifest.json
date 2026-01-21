@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "julie-l-speedoflight-giftool-1xzja0",
+      "author": "Julie L",
+      "name": "SPEED OF LIGHT",
+      "description": "Speed of Light is a generative art tool to create and export dynamic light-trail GIFs. The project uses a continuous central vortex to mimic the \"hyperspace\" effect of traveling at light speed, transforming simple brushstrokes into space.",
+      "model": "Gemini 3",
+      "url": "tools/julie-l-speedoflight-giftool-1xzja0.js",
+      "uploadedAt": "2026-01-21T14:30:27.662Z"
+    },
+    {
       "id": "juliel-layer0-brushtool-f8potl",
       "author": "JulieL",
       "name": "LAYER 0",
