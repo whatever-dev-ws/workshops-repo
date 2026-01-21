@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "annalena-psenner-typetool-5b7whz",
+      "author": "annalena",
+      "name": "Kinetic Studio",
+      "description": "This is an interactive typography tool that allows users to manipulate the visual properties of text in real-time. By moving the cursor along the X and Y axes, users can dynamically adjust letter spacing, vertical scale, and shear.",
+      "model": "Gemini Pro",
+      "url": "tools/annalena-psenner-typetool-5b7whz.js",
+      "uploadedAt": "2026-01-21T15:18:28.545Z"
+    },
+    {
       "id": "sas-animation-0hmb3i",
       "author": "sas",
       "name": "Double-layered gif",
