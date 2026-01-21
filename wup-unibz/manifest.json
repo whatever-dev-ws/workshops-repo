@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "maudgrn-tap-game-35oeek",
+      "author": "maudgrn",
+      "name": "tap game",
+      "description": "Fill the Glass! is a p5.js simulation that combines 3D interaction with voice-controlled physics. After clicking and holding to \"drill\" a hole in a 3D faucet model, users fill a glass by making a \"shh\" sound into their microphone. The tool uses Fast Fourier Transform to isolate high-frequency audio , triggering a realistic water stream that responds to the volume of your voice. This experience features dynamic WEBGL rendering, including specular lighting, spark particles, and real-time surface ripples as the glass fills.",
+      "model": "Gemini",
+      "url": "tools/maudgrn-tap-game-35oeek.js",
+      "uploadedAt": "2026-01-21T14:37:31.569Z"
+    },
+    {
       "id": "maudgrn-gif-tool-2zpllo",
       "author": "maudgrn",
       "name": "cat gif tool",
