@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "hristina-kukusheva-typetool-f7pu34",
+      "author": "Hristina Kukusheva",
+      "name": "Kukusheva-Hristina-type-tool",
+      "description": "a tool that censors every word you type in capital letters",
+      "model": "Copilot GPT-5",
+      "url": "tools/hristina-kukusheva-typetool-f7pu34.js",
+      "uploadedAt": "2026-01-21T23:20:48.625Z"
+    },
+    {
       "id": "bernardi-elisa-mega-arcade-defender-a411sc",
       "author": "Bernardi_Elisa",
       "name": "MEGA ARCADE DEFENDER",
