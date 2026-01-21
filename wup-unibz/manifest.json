@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "mees-jonker-type-tool-rl0hst",
+      "author": "Mees Jonker",
+      "name": "Type_Tool",
+      "description": "This type tool allows to write and distort text on predetermined 3D solids",
+      "model": "Gemini Pro",
+      "url": "tools/mees-jonker-type-tool-rl0hst.js",
+      "uploadedAt": "2026-01-21T16:38:45.708Z"
+    },
+    {
       "id": "navadosha-brush-tool-9zjcne",
       "author": "Navadosha",
       "name": "Brush_Tool",
