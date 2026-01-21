@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "luciornick-brush-tool-4ytead",
+      "author": "luciornick",
+      "name": "Shape_Brush",
+      "description": "A Tool to drawing with effects and also to draw with shape",
+      "model": "Gemini 3 Pro",
+      "url": "tools/luciornick-brush-tool-4ytead.js",
+      "uploadedAt": "2026-01-21T13:59:52.192Z"
+    },
+    {
       "id": "emilysupremacy-text-tool-4r830b",
       "author": "emilysupremacy",
       "name": "Talk to Terrific Text Tool",
