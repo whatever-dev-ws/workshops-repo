@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "maudgrn-gif-tool-2zpllo",
+      "author": "maudgrn",
+      "name": "cat gif tool",
+      "description": "This p5.js tool provides a modular pixel-art environment for designing an animated walking cat. Users begin by selecting a color theme before clicking interactive hitboxes on the character to open a grid-based editor. Using pixel-level brushes and transparent \"ghost\" guides, you can override default textures for the body, tail, or even the sky background. The final result combines your custom art with sine-wave walking physics, ready for export as a looping GIF.",
+      "model": "Gemini",
+      "url": "tools/maudgrn-gif-tool-2zpllo.js",
+      "uploadedAt": "2026-01-21T14:36:25.537Z"
+    },
+    {
       "id": "sophiefeichter-text-tool-xvhkoa",
       "author": "sophiefeichter",
       "name": "Master Type",
