@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "alicefederici-a-tool-brush-l4s89u",
+      "author": "alicefederici",
+      "name": "A BRUSH TOOL",
+      "description": "It is essentially a Generative Collage and Image Processing Workstation that allows you to use a photo as a \"stamp\" or \"brush\" to create high-resolution digital art.",
+      "model": "Gemini 3",
+      "url": "tools/alicefederici-a-tool-brush-l4s89u.js",
+      "uploadedAt": "2026-01-21T15:48:30.095Z"
+    },
+    {
       "id": "eliasbschorr-dancing-stickman-gif-tool-8hiuxt",
       "author": "eliasbschorr",
       "name": "Stickman dance",
