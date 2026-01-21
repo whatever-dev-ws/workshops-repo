@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "nrity-brush-2jsqyp",
+      "author": "Nrity",
+      "name": "Paint tool",
+      "description": "A simple tool for painting that offers different types of brushes to create what the user desires.",
+      "model": "Gemini 3",
+      "url": "tools/nrity-brush-2jsqyp.js",
+      "uploadedAt": "2026-01-21T22:00:17.287Z"
+    },
+    {
       "id": "ema-just-type-something-k206vg",
       "author": "Ema",
       "name": "Just type",
