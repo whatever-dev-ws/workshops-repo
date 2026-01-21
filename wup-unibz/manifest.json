@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "hzischg-gif-7ksyct",
+      "author": "HZischg",
+      "name": "3D Motion Studio",
+      "description": "Deform geometric shapes into dynamic abstract animations in real-time.",
+      "model": "Gemini Pro, Claude Sonnet",
+      "url": "tools/hzischg-gif-7ksyct.js",
+      "uploadedAt": "2026-01-21T14:07:20.050Z"
+    },
+    {
       "id": "turbotrevi-earth-fc1vke",
       "author": "turbotrevi",
       "name": "earth",
