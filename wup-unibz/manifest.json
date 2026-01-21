@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "tatacherubin-brush-cherubin-chiara-uq11wo",
+      "author": "TataCherubin",
+      "name": "Emoji Brush",
+      "description": "An Interactive interface that allow the user to unleash your creativity with Emoji Brush by transforming your screen into a vibrant canvas, painting with dynamic emojis, custom stickers, and images. Packed with features like geometric shapes, rainbow modes, and spray tools, it’s the ultimate interactive playground to create and save unique digital masterpieces instantly!",
+      "model": "Gemini 3 Pro",
+      "url": "tools/tatacherubin-brush-cherubin-chiara-uq11wo.js",
+      "uploadedAt": "2026-01-21T15:51:55.233Z"
+    },
+    {
       "id": "alicefederici-a-tool-brush-l4s89u",
       "author": "alicefederici",
       "name": "A BRUSH TOOL",
