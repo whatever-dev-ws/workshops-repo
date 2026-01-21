@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "emilysupremacy-text-tool-5w8wfo",
+      "author": "emilysupremacy",
+      "name": "Talk to Terrific Text Tool",
+      "description": "The text can be displayed in one line, like a paragraph or as a spiral, and responds to mouse movement. Letters can bounce around.",
+      "model": "Gemini 3",
+      "url": "tools/emilysupremacy-text-tool-5w8wfo.js",
+      "uploadedAt": "2026-01-21T13:59:10.480Z"
+    },
+    {
       "id": "sophiefeichter-brush-tool-8l3qv1",
       "author": "sophiefeichter",
       "name": "Smart Brush",
