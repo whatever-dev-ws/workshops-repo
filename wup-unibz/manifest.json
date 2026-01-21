@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "julie-l-re-print-rastertool-ltwx68",
+      "author": "Julie L",
+      "name": "RE-PRINT",
+      "description": "This tool processes digital images through custom halftone and posterization engines to recreate the aesthetic of physical print media.",
+      "model": "Gemini 3",
+      "url": "tools/julie-l-re-print-rastertool-ltwx68.js",
+      "uploadedAt": "2026-01-21T14:31:51.654Z"
+    },
+    {
       "id": "castoro-text-p5jstool-avufgv",
       "author": "castoro",
       "name": "Waves",
