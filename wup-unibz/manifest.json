@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "castoro-gif-p5jstool-93lglm",
+      "author": "castoro",
+      "name": "text on a path",
+      "description": "a tool that animates given text along a given path",
+      "model": "Google Gemini",
+      "url": "tools/castoro-gif-p5jstool-93lglm.js",
+      "uploadedAt": "2026-01-21T14:33:48.229Z"
+    },
+    {
       "id": "hzischg-brushtool-sk40is",
       "author": "HZischg",
       "name": "canvas PRO",
