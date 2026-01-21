@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "t-socche-sketch-ajyu1q",
+      "author": "T.Socche",
+      "name": "Waving Writing",
+      "description": "A kinetic typography tool raster where you can create animation in a wave like motion. You can adjust lots of parameters to personalise yuor creation. Don't forget to save a gif or a photo!",
+      "model": "Gemini 3 Pro",
+      "url": "tools/t-socche-sketch-ajyu1q.js",
+      "uploadedAt": "2026-01-21T14:35:05.006Z"
+    },
+    {
       "id": "hzischg-brushtool-nz6ik6",
       "author": "HZischg",
       "name": "canvas PRO",
