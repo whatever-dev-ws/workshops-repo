@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "angj-angela-santolini-brush-1h2z49",
+      "author": "angj",
+      "name": "SymmetryArt",
+      "description": "Select your brush and start drawing: create gorgeous mandala designs in seconds with just a few lines",
+      "model": "Gemini 3",
+      "url": "tools/angj-angela-santolini-brush-1h2z49.js",
+      "uploadedAt": "2026-01-21T14:17:44.852Z"
+    },
+    {
       "id": "dbono-daniele-bonometti-brush-78agjj",
       "author": "DBono",
       "name": "Brush",
