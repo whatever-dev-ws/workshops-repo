@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "ema-crazy-brush-bd5fo7",
+      "author": "Ema",
+      "name": "Crazy brush",
+      "description": "Ok, so imagine you have a kaleidoscope but it's fully customizable and crazy. There is a little Magic and spinning and craziness. Did I mention its crazy?\r\nCrazy? I was crazy once.",
+      "model": "Gemini 3",
+      "url": "tools/ema-crazy-brush-bd5fo7.js",
+      "uploadedAt": "2026-01-21T21:59:01.594Z"
+    },
+    {
       "id": "andreaghirardi-kinetic-moire-generator-v2-28oq9y",
       "author": "andreaghirardi",
       "name": "Kinetic Moiré Generator V2",
