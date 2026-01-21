@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "hzischg-brushtool-sk40is",
+      "author": "HZischg",
+      "name": "canvas PRO",
+      "description": "A professional digital canvas featuring realistic procedural brushes, dynamic paint drip physics, and symmetry tools.\"",
+      "model": "Gemini Pro, Claude Sonnet",
+      "url": "tools/hzischg-brushtool-sk40is.js",
+      "uploadedAt": "2026-01-21T14:33:39.457Z"
+    },
+    {
       "id": "castoro-raster-p5jstool-lfm0vs",
       "author": "castoro",
       "name": "emojification",
