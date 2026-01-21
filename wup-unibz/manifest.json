@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "angj-angela-santolini-gif-0rftdo",
+      "author": "angj",
+      "name": "flora gen",
+      "description": "You can create your own personal GIFs using your flower designs! Draw them yourself, change the color and size, and turn them into a GIF",
+      "model": "Gemini 3",
+      "url": "tools/angj-angela-santolini-gif-0rftdo.js",
+      "uploadedAt": "2026-01-21T14:12:03.279Z"
+    },
+    {
       "id": "lemonsoda-sketch-uzrt3g",
       "author": "lemonsoda",
       "name": "Kinetic Typography Raster",
