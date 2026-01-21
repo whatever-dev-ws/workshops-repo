@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "lara-sketchtypewriter-nk25bd",
+      "author": "lara",
+      "name": "TypeWriter",
+      "description": "A writing tool that allows the user to apply a wide variety of fonts, colors, and effects to create a creative writing layout. The result can then be saved as a GIF.",
+      "model": "Gemini 3 Pro",
+      "url": "tools/lara-sketchtypewriter-nk25bd.js",
+      "uploadedAt": "2026-01-21T17:18:58.451Z"
+    },
+    {
       "id": "lara-sketchtypewriter-tky8vu",
       "author": "lara",
       "name": "TypeWriter",
