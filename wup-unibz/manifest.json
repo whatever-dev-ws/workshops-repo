@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "nrity-typo-2mt2wr",
+      "author": "Nrity",
+      "name": "SKIBIDI",
+      "description": "A weird tool that lets you work with words.",
+      "model": "Gemini 3",
+      "url": "tools/nrity-typo-2mt2wr.js",
+      "uploadedAt": "2026-01-21T22:10:35.260Z"
+    },
+    {
       "id": "nrity-brush-2jsqyp",
       "author": "Nrity",
       "name": "Paint tool",
