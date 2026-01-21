@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "sas-raster-84q9dn",
+      "author": "sas",
+      "name": "Raster tool",
+      "description": "A cool tool with many different types of rasters.",
+      "model": "Gemini 3",
+      "url": "tools/sas-raster-84q9dn.js",
+      "uploadedAt": "2026-01-21T16:28:17.788Z"
+    },
+    {
       "id": "amelindotheduke-fallinggif-88wcdy",
       "author": "AmelindoTheDuke",
       "name": "FallingGif",
