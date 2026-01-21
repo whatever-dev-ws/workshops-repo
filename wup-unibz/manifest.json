@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "tatacherubin-text-cherubin-chiara-zk8mji",
+      "author": "TataCherubin",
+      "name": "Kinetic Studio",
+      "description": "Elevate your typography with Kinetic Studio, a professional generative art editor! Create mesmerizing, moving text compositions using dynamic Jitter, Wave, and Spiral physics.",
+      "model": "Gemini 3 Pro",
+      "url": "tools/tatacherubin-text-cherubin-chiara-zk8mji.js",
+      "uploadedAt": "2026-01-21T15:54:36.703Z"
+    },
+    {
       "id": "tatacherubin-brush-cherubin-chiara-uq11wo",
       "author": "TataCherubin",
       "name": "Emoji Brush",
