@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "lara-sketchinmotion-1xdehq",
+      "author": "lara",
+      "name": "InMotion",
+      "description": "A visually appealing tool that allows the user to apply different effects to a wide variety of geometric shapes and then save the result as a GIF.",
+      "model": "Gemini 3 Pro",
+      "url": "tools/lara-sketchinmotion-1xdehq.js",
+      "uploadedAt": "2026-01-21T17:01:47.287Z"
+    },
+    {
       "id": "lara-sketch-fq2q9a",
       "author": "lara",
       "name": "CanvaFlow",
