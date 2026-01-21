@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "alicefederici-a-gif-tool-9izykn",
+      "author": "alicefederici",
+      "name": "A GIF TOOL",
+      "description": "A generative tool for creating animated GIFs using particle systems. Users can control shape, motion, direction, density, color, and size to produce clean, rhythmic, and expressive visual compositions.",
+      "model": "Gemini 3",
+      "url": "tools/alicefederici-a-gif-tool-9izykn.js",
+      "uploadedAt": "2026-01-21T16:44:11.955Z"
+    },
+    {
       "id": "mees-jonker-raster-tool-qk0sa0",
       "author": "Mees Jonker",
       "name": "Raster_Tool",
