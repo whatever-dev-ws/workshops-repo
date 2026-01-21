@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "lemonsoda-sketch-rz5gwq",
+      "author": "lemonsoda",
+      "name": "Image Raster",
+      "description": "Upload an image and pixelate it with this raster tool. Choose different shaped pixels and their density to adjust the image.",
+      "model": "Gemini PRO",
+      "url": "tools/lemonsoda-sketch-rz5gwq.js",
+      "uploadedAt": "2026-01-21T13:46:34.262Z"
+    },
+    {
       "id": "marinaldi-primo-strumento-brush-axvz2b",
       "author": "Marinaldi",
       "name": "Brush tool - Melting dots",
