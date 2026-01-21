@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "lara-sketchtypewriter-a4f7dy",
+      "author": "lara",
+      "name": "TypeWriter",
+      "description": "A writing tool that allows the user to apply different fonts, colors, and effects to create an attractive writing layout. The result can then be saved as a GIF.",
+      "model": "Gemini 3 Pro",
+      "url": "tools/lara-sketchtypewriter-a4f7dy.js",
+      "uploadedAt": "2026-01-21T17:06:16.345Z"
+    },
+    {
       "id": "lara-sketchpigmenttool-hs3i9h",
       "author": "lara",
       "name": "PigmentTool",
