@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "hzischg-giftool-p198qh",
+      "author": "HZischg",
+      "name": "3D Motion Studio",
+      "description": "Deform geometric shapes into dynamic abstract animations in real-time.",
+      "model": "Gemini Pro, Claude Sonnet",
+      "url": "tools/hzischg-giftool-p198qh.js",
+      "uploadedAt": "2026-01-21T14:27:45.991Z"
+    },
+    {
       "id": "castoro-brush-p5jstool-flubwr",
       "author": "castoro",
       "name": "object brush",
