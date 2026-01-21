@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "turbotrevi-tattoobrush-xil5pq",
+      "author": "turbotrevi",
+      "name": "tattoo brush",
+      "description": "draw using a simulation of a tattoo machine with various types of ink, various intensities and various skin tones",
+      "model": "Chat Gpt",
+      "url": "tools/turbotrevi-tattoobrush-xil5pq.js",
+      "uploadedAt": "2026-01-21T13:38:23.244Z"
+    },
+    {
       "id": "luciornick-type-tool-f-iy97ck",
       "author": "luciornick",
       "name": "3D_animated_Type_Tool",
