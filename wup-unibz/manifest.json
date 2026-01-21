@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "annalena-psenner-rastertool-1joyfb",
+      "author": "annalena",
+      "name": "Chromatic Wave",
+      "description": "This tool features two primary modes: a Raster Image mode, which reconstructs images using a grid of variable-sized circles or squares, and an Optical Illusion mode, which generates animated wave patterns.",
+      "model": "Gemini Pro",
+      "url": "tools/annalena-psenner-rastertool-1joyfb.js",
+      "uploadedAt": "2026-01-21T15:15:14.541Z"
+    },
+    {
       "id": "sas-brush-c38nbm",
       "author": "sas",
       "name": "Word brush",
