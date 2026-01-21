@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "alania-alien-noise-raster-x21ec6",
+      "author": "Alania Alien",
+      "name": "Noise Raster",
+      "description": "A creative tool that converts any uploaded image into a dynamic raster grid.\r\nChoose from multiple styles (circles, squares, scanlines, or ASCII art), adjust tile size with mouse movement, and add noise distortion for a textured look.\r\nCustomize background and ink colors, then export your design as a PNG image or a seamlessly looping GIF.",
+      "model": "Google Gemini Pro",
+      "url": "tools/alania-alien-noise-raster-x21ec6.js",
+      "uploadedAt": "2026-01-21T14:18:43.091Z"
+    },
+    {
       "id": "luca-tomaselli-raster-tool-jq3mn2",
       "author": "Luca Tomaselli",
       "name": "Raster",
