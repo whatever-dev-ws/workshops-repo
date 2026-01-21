@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "luca-tomaselli-brush-tool-cwg3k4",
+      "author": "Luca Tomaselli",
+      "name": "Brush Tool",
+      "description": "An interactive brush tool",
+      "model": "Gemini 3 pro",
+      "url": "tools/luca-tomaselli-brush-tool-cwg3k4.js",
+      "uploadedAt": "2026-01-21T13:58:42.459Z"
+    },
+    {
       "id": "emilysupremacy-brush-tool-tcmhn1",
       "author": "emilysupremacy",
       "name": "Basic Brush",
