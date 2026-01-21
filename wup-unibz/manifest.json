@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "turbotrevi-secretalphabet-t5x4m6",
+      "author": "turbotrevi",
+      "name": "secret alphabet",
+      "description": "A tool that allows you to write secret codes using a randomisable alphabet.",
+      "model": "Chat Gpt",
+      "url": "tools/turbotrevi-secretalphabet-t5x4m6.js",
+      "uploadedAt": "2026-01-21T13:50:21.941Z"
+    },
+    {
       "id": "marinaldi-terzo-strumento-brush-qgu46z",
       "author": "Marinaldi",
       "name": "Brush tool - Moving dots into wallpaper",
