@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "eliasbschorr-loop-painter-brush-tool-elias--r6yo2o",
+      "author": "eliasbschorr",
+      "name": "Loop Painter",
+      "description": "Painting Tool with unexpected outcome",
+      "model": "Gemini 3",
+      "url": "tools/eliasbschorr-loop-painter-brush-tool-elias--r6yo2o.js",
+      "uploadedAt": "2026-01-21T15:05:43.803Z"
+    },
+    {
       "id": "andreabinanzer-typography-tool-4d2e0a",
       "author": "andreabinanzer",
       "name": "Typography Tool",
