@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "mees-jonker-raster-tool-qk0sa0",
+      "author": "Mees Jonker",
+      "name": "Raster_Tool",
+      "description": "A raster sound tool that allows to upload your own files and make a raster with sound that reacts to the pointer/mouse.",
+      "model": "Gemini Pro",
+      "url": "tools/mees-jonker-raster-tool-qk0sa0.js",
+      "uploadedAt": "2026-01-21T16:42:11.163Z"
+    },
+    {
       "id": "navadosha-animation-tool-a6lp2s",
       "author": "Navadosha",
       "name": "Animation_Tool",
