@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "navadosha-raster-tool-495vte",
+      "author": "Navadosha",
+      "name": "Raster_Tool",
+      "description": "You can input a picture and pixelate, blur it and you have an halftone mode to edit the picture even further. You can choose colors and make it vibate.",
+      "model": "Perplexity Pro",
+      "url": "tools/navadosha-raster-tool-495vte.js",
+      "uploadedAt": "2026-01-21T16:46:04.861Z"
+    },
+    {
       "id": "alicefederici-a-gif-tool-9izykn",
       "author": "alicefederici",
       "name": "A GIF TOOL",
