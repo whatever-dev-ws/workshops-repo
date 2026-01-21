@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "julie-l-typeblast-testtool-eimfsm",
+      "author": "Julie L",
+      "name": "TYPE-BLAST",
+      "description": "Type-Blast is a Tool to transform your message into a three-dimensional piece. Use the \"Explode\" mode and ghost layers to capture the energy of retro-futurism.",
+      "model": "Gemini 3",
+      "url": "tools/julie-l-typeblast-testtool-eimfsm.js",
+      "uploadedAt": "2026-01-21T14:32:31.875Z"
+    },
+    {
       "id": "julie-l-re-print-rastertool-ltwx68",
       "author": "Julie L",
       "name": "RE-PRINT",
