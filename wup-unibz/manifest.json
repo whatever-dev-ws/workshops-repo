@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "alania-alien-hynosis-gif-g68adi",
+      "author": "Alania Alien",
+      "name": "Hynosis GIF",
+      "description": "An interactive generative art tool that creates hypnotic, seamless looping visuals.\r\nMove your mouse to control distortion and spike intensity, and hold click for more chaotic motion.\r\nPress “S” to render and download a 5-second looping GIF, with a status overlay during export.",
+      "model": "Google Gemini Pro",
+      "url": "tools/alania-alien-hynosis-gif-g68adi.js",
+      "uploadedAt": "2026-01-21T14:17:00.855Z"
+    },
+    {
       "id": "luca-tomaselli-typography-tool-0v982f",
       "author": "Luca Tomaselli",
       "name": "Typography funny",
