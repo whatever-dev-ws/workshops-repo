@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "sophiefeichter-raster-tool-4emiab",
+      "author": "sophiefeichter",
+      "name": "Infinite Raster",
+      "description": "This tool helps you create the perfect raster out of any image with many different style, color, grid and shape options and if you do not know to start you can ask the tool to surprise you",
+      "model": "Gemini",
+      "url": "tools/sophiefeichter-raster-tool-4emiab.js",
+      "uploadedAt": "2026-01-21T14:00:43.982Z"
+    },
+    {
       "id": "maudgrn-brush-tool-3qqytp",
       "author": "maudgrn",
       "name": "pattern studio",
