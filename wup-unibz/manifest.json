@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "navadosha-brush-tool-9zjcne",
+      "author": "Navadosha",
+      "name": "Brush_Tool",
+      "description": "It is a standard brushtool, you can choose between 4 brushes, color, opacity and darknes of the color for the rest you can do what u want.",
+      "model": "Perplexity Pro",
+      "url": "tools/navadosha-brush-tool-9zjcne.js",
+      "uploadedAt": "2026-01-21T16:37:55.871Z"
+    },
+    {
       "id": "mees-jonker-brush-tool-khslch",
       "author": "Mees Jonker",
       "name": "Brush_Tool",
