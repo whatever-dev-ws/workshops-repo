@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "emilysupremacy-text-tool-4r830b",
+      "author": "emilysupremacy",
+      "name": "Talk to Terrific Text Tool",
+      "description": "The text can be displayed in one line, like a paragraph or as a spiral, and responds to mouse movement. Letters can bounce around.",
+      "model": "Gemini 3",
+      "url": "tools/emilysupremacy-text-tool-4r830b.js",
+      "uploadedAt": "2026-01-21T13:59:42.715Z"
+    },
+    {
       "id": "marinaldi-strumento-kinetype-vr8w5z",
       "author": "Marinaldi",
       "name": "Kinetype tool - terminal-like-minigames",
