@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "alicefederici-a-raster-tool-daav9g",
+      "author": "alicefederici",
+      "name": "A RASTER TOOL",
+      "description": "This tool transforms images into typographic artwork. By selecting a font, symbol, or word, users can reconstruct an image entirely through text. It relies on a grid-based sampling technique where the brightness of each cell controls whether a character is rendered and how large it appears, producing a visually faithful, text-driven interpretation of the original image.",
+      "model": "Gemini 3",
+      "url": "tools/alicefederici-a-raster-tool-daav9g.js",
+      "uploadedAt": "2026-01-21T16:11:04.870Z"
+    },
+    {
       "id": "amelindotheduke-3dmirrorfont-0nfyu0",
       "author": "AmelindoTheDuke",
       "name": "3DMirrorFont",
