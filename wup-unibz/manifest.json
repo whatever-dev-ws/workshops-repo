@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "tatacherubin-gif-cherubin-chiara-h19vrp",
+      "author": "TataCherubin",
+      "name": "Punk GIF",
+      "description": "Step into the retro-future with Avatar Studio! Design your ultimate punk character using custom hairstyles, outfits, and colors. Control the action with real-time keyboard physics, trigger wild dance moves, and record your masterpiece against a synthwave backdrop directly to an animated GIF!",
+      "model": "Gemini 3 Pro",
+      "url": "tools/tatacherubin-gif-cherubin-chiara-h19vrp.js",
+      "uploadedAt": "2026-01-21T15:55:54.756Z"
+    },
+    {
       "id": "tatacherubin-text-cherubin-chiara-zk8mji",
       "author": "TataCherubin",
       "name": "Kinetic Studio",
