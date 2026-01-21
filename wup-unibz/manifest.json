@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "sophiefeichter-brush-tool-8l3qv1",
+      "author": "sophiefeichter",
+      "name": "Smart Brush",
+      "description": "With this tool you can not only draw on canvas in different styles, but also make your canvas come to life through magic effects",
+      "model": "Gemini",
+      "url": "tools/sophiefeichter-brush-tool-8l3qv1.js",
+      "uploadedAt": "2026-01-21T13:58:50.917Z"
+    },
+    {
       "id": "luca-tomaselli-brush-tool-cwg3k4",
       "author": "Luca Tomaselli",
       "name": "Brush Tool",
