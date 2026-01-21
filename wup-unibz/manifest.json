@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "marinaldi-terzo-strumento-brush-qgu46z",
+      "author": "Marinaldi",
+      "name": "Brush tool - Moving dots into wallpaper",
+      "description": "A brush tool that can make you create moving dots, which, after three bounces, become part of the background",
+      "model": "Gemini 3 (flash)",
+      "url": "tools/marinaldi-terzo-strumento-brush-qgu46z.js",
+      "uploadedAt": "2026-01-21T13:48:42.417Z"
+    },
+    {
       "id": "marinaldi-secondo-strumento-brush-7jr7m1",
       "author": "Marinaldi",
       "name": "Brush tool - Spaghetti/hair",
