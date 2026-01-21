@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "andreabinanzer-brush-tool-wzuyd6",
+      "author": "andreabinanzer",
+      "name": "Brush tool",
+      "description": "A drawing studio that lets you create art with unique textures like watercolor, calligraphy, chalk and oil paint. Watch your work come to life with the replay feature and save your creations as images or animations.",
+      "model": "Gemini 3",
+      "url": "tools/andreabinanzer-brush-tool-wzuyd6.js",
+      "uploadedAt": "2026-01-21T14:50:51.558Z"
+    },
+    {
       "id": "luciornick-type-tool-s-4ec8q7",
       "author": "luciornick",
       "name": "3D_animated_Type_Tool",
