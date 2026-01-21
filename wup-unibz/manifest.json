@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "sophiefeichter-3d-game-t1cx3d",
+      "author": "sophiefeichter",
+      "name": "Musical Magic",
+      "description": "An interactive tool, which allows you to play and customize a guitar",
+      "model": "Gemini",
+      "url": "tools/sophiefeichter-3d-game-t1cx3d.js",
+      "uploadedAt": "2026-01-21T14:56:49.515Z"
+    },
+    {
       "id": "andreabinanzer-brush-tool-wzuyd6",
       "author": "andreabinanzer",
       "name": "Brush tool",
