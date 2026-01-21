@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "alania-alien-vortex-brush-6zyt40",
+      "author": "Alania Alien",
+      "name": "Vortex Brush",
+      "description": "An interactive generative art tool that lets you create glowing, silk-like particle drawings.\r\nDraw with your mouse, choose from multiple color palettes, and customize effects like mirror symmetry, glow, and teleport bursts.\r\nSave your artwork as a PNG and undo up to 10 steps.",
+      "model": "Google Gemini Pro",
+      "url": "tools/alania-alien-vortex-brush-6zyt40.js",
+      "uploadedAt": "2026-01-21T14:15:30.024Z"
+    },
+    {
       "id": "angj-angela-santolini-raster-onejtu",
       "author": "angj",
       "name": "VibeGrid",
