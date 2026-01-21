@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "lemonsoda-sketch-uzrt3g",
+      "author": "lemonsoda",
+      "name": "Kinetic Typography Raster",
+      "description": "A tool which allows you to animate a 3D text and rasterise it, animating the individual segments.",
+      "model": "Gemini PRO",
+      "url": "tools/lemonsoda-sketch-uzrt3g.js",
+      "uploadedAt": "2026-01-21T14:10:01.580Z"
+    },
+    {
       "id": "hzischg-gif-7ksyct",
       "author": "HZischg",
       "name": "3D Motion Studio",
