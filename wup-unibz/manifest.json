@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "castoro-brush-p5jstool-2phh52",
+      "author": "castoro",
+      "name": "object brush",
+      "description": "a digital brush tool which uses an uploaded image or an input text",
+      "model": "Google Gemini",
+      "url": "tools/castoro-brush-p5jstool-2phh52.js",
+      "uploadedAt": "2026-01-21T14:25:30.147Z"
+    },
+    {
       "id": "hzischg-giftool-f6ae03",
       "author": "HZischg",
       "name": "3D Motion Studio",
