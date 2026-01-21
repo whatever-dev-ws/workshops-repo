@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "sas-brush-c38nbm",
+      "author": "sas",
+      "name": "Word brush",
+      "description": "Make a very nice drawing using words of your choice. Change the color, density and spacing to achieve your perfect artwork.",
+      "model": "Gemini 3",
+      "url": "tools/sas-brush-c38nbm.js",
+      "uploadedAt": "2026-01-21T15:13:14.092Z"
+    },
+    {
       "id": "sas-type-glioxt",
       "author": "sas",
       "name": "Negative type",
