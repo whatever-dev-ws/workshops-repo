@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "marinaldi-quarto-strumento-brush-f9u94y",
+      "author": "Marinaldi",
+      "name": "Brush tool - Attracted circle",
+      "description": "A brush tool in which you can attract \"like a magnet\" the circle towards the position of the mouse with spacebar, while holding spacebar, the circle will also leave traces of its shape",
+      "model": "Gemini 3 (flash)",
+      "url": "tools/marinaldi-quarto-strumento-brush-f9u94y.js",
+      "uploadedAt": "2026-01-21T13:50:47.290Z"
+    },
+    {
       "id": "tomaselli-luca-brush-98rbwe",
       "author": "Tomaselli Luca",
       "name": "Brush_Javascript",
