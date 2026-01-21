@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "maudgrn-raster-tool-g9cfzg",
+      "author": "maudgrn",
+      "name": "raster studio",
+      "description": "Raster Studio is a p5.js image processor that converts photos into stylized halftone compositions using a multi-layer rasterization engine. It samples image brightness to map tonal density onto geometric grids, dynamically scaling shapes to recreate visual detail. By stacking layers with custom ink colors and blend modes like Multiply or Screen, users can simulate complex printmaking effects. The tool offers real-time control over grid density and opacity, ensuring high-resolution outputs that preserve original source quality.",
+      "model": "Gemini",
+      "url": "tools/maudgrn-raster-tool-g9cfzg.js",
+      "uploadedAt": "2026-01-21T14:02:15.491Z"
+    },
+    {
       "id": "andreabinanzer-raster-tool-9vintm",
       "author": "andreabinanzer",
       "name": "magnetic raster tool",
