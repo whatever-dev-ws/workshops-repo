@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "hzischg-giftool-f6ae03",
+      "author": "HZischg",
+      "name": "3D Motion Studio",
+      "description": "Deform geometric shapes into dynamic abstract animations in real-time.",
+      "model": "Gemini Pro, Claude Sonnet",
+      "url": "tools/hzischg-giftool-f6ae03.js",
+      "uploadedAt": "2026-01-21T14:21:42.957Z"
+    },
+    {
       "id": "turbotrevi-dotartstudio-e5oc6p",
       "author": "turbotrevi",
       "name": "DotArt",
