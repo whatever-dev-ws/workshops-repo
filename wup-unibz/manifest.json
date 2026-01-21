@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "castoro-raster-p5jstool-lfm0vs",
+      "author": "castoro",
+      "name": "emojification",
+      "description": "a rastering tool which converts any given image into emojis, alternatively colored letters",
+      "model": "Google Gemini",
+      "url": "tools/castoro-raster-p5jstool-lfm0vs.js",
+      "uploadedAt": "2026-01-21T14:32:39.604Z"
+    },
+    {
       "id": "julie-l-typeblast-testtool-eimfsm",
       "author": "Julie L",
       "name": "TYPE-BLAST",
