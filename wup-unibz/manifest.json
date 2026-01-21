@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "amelindotheduke-3dmirrorfont-mmj13q",
+      "author": "AmelindoTheDuke",
+      "name": "3DMirrorFont",
+      "description": "A 3d writings generator, make your fonts 3D! Also there is a mirror function to make the writings infinite",
+      "model": "Gemini3 Pro",
+      "url": "tools/amelindotheduke-3dmirrorfont-mmj13q.js",
+      "uploadedAt": "2026-01-21T16:02:44.072Z"
+    },
+    {
       "id": "tatacherubin-gif-cherubin-chiara-h19vrp",
       "author": "TataCherubin",
       "name": "Punk GIF",
