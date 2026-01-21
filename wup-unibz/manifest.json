@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "bernardi-elisa-analogix-7k9dp3",
+      "author": "Bernardi_Elisa",
+      "name": "Analogix",
+      "description": "They aren't just squares; they are the raw atoms of the digital realm.\r\n\r\nThis tool redefines  unified the tactile intimacy of sketching on a Fabriano paper and the structural clarity of pixel art.\r\n\r\nExperience a brush that breathes like graphite and flows like watercolor, yet possesses the architectural power of the pixel. \r\nDon’t just draw: build your vision.",
+      "model": "Gemini 3 PRO",
+      "url": "tools/bernardi-elisa-analogix-7k9dp3.js",
+      "uploadedAt": "2026-01-21T22:58:04.653Z"
+    },
+    {
       "id": "bernardi-elisa-veil-9ihipa",
       "author": "Bernardi_Elisa",
       "name": "Veil",
