@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "luciornick-raster-tool-nbx72h",
+      "author": "luciornick",
+      "name": "Raster_Tool",
+      "description": "A Tool to do the raster effect, u can also chose to remove the background and change the color and also more image",
+      "model": "Gemini 3 Pro",
+      "url": "tools/luciornick-raster-tool-nbx72h.js",
+      "uploadedAt": "2026-01-21T14:02:47.306Z"
+    },
+    {
       "id": "maudgrn-raster-tool-g9cfzg",
       "author": "maudgrn",
       "name": "raster studio",
