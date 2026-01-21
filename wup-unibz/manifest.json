@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "turbotrevi-secretalphabet-yyv328",
+      "author": "turbotrevi",
+      "name": "secretalphabet",
+      "description": "A tool that allows you to create a random secret code and write encrypted texts based on the secret code you have created.",
+      "model": "Chat Gpt",
+      "url": "tools/turbotrevi-secretalphabet-yyv328.js",
+      "uploadedAt": "2026-01-21T13:44:17.613Z"
+    },
+    {
       "id": "lemonsoda-sketch-j0g2uh",
       "author": "lemonsoda",
       "name": "Drift Brush",
