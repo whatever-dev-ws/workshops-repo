@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "andreaghirardi-kinetic-moire-generator-v2-28oq9y",
+      "author": "andreaghirardi",
+      "name": "Kinetic Moiré Generator V2",
+      "description": "An interactive application that generates animated geometric patterns with moiré effects through overlapping rotating layers",
+      "model": "Claude Sonnet 4.5",
+      "url": "tools/andreaghirardi-kinetic-moire-generator-v2-28oq9y.js",
+      "uploadedAt": "2026-01-21T21:33:08.950Z"
+    },
+    {
       "id": "andreaghirardi-kinetic-moire-generator-s93b9x",
       "author": "andreaghirardi",
       "name": "Kinetic Moiré Generator",
