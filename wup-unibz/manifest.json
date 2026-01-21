@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "luciornick-type-tool-s-4ec8q7",
+      "author": "luciornick",
+      "name": "3D_animated_Type_Tool",
+      "description": "A tool where u can type, make animation type, type with shape and also type in the 3 dimension and chose the dimension of the canvas",
+      "model": "Gemini 3 Pro",
+      "url": "tools/luciornick-type-tool-s-4ec8q7.js",
+      "uploadedAt": "2026-01-21T14:48:49.960Z"
+    },
+    {
       "id": "hzischg-giftool-u2zd26",
       "author": "HZischg",
       "name": "3D Motion Studio",
