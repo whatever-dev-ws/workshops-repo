@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "dbono-daniele-bonometti-type-d520db",
+      "author": "DBono",
+      "name": "Type",
+      "description": "A tool that allows you to write using preset fonts with the option to save what you write as a GIF or normal photo.",
+      "model": "Gemini 3",
+      "url": "tools/dbono-daniele-bonometti-type-d520db.js",
+      "uploadedAt": "2026-01-21T14:19:02.576Z"
+    },
+    {
       "id": "alania-alien-noise-raster-x21ec6",
       "author": "Alania Alien",
       "name": "Noise Raster",
