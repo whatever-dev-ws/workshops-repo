@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "luciornick-gif-maker-w-uf7i0t",
+      "author": "luciornick",
+      "name": "Gif_Maker",
+      "description": "A gif maker to make gif and also change the speed of the gif",
+      "model": "Gemini 3 Pro",
+      "url": "tools/luciornick-gif-maker-w-uf7i0t.js",
+      "uploadedAt": "2026-01-21T14:03:55.438Z"
+    },
+    {
       "id": "luciornick-raster-tool-nbx72h",
       "author": "luciornick",
       "name": "Raster_Tool",
