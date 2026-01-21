@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "dbono-daniele-bonometti-raster-8ayabq",
+      "author": "DBono",
+      "name": "Raster",
+      "description": "A tool for editing your images to achieve a ‘Raster’ effect, with the option to choose from various editing options and freely select the image size",
+      "model": "Gemini 3",
+      "url": "tools/dbono-daniele-bonometti-raster-8ayabq.js",
+      "uploadedAt": "2026-01-21T14:18:27.487Z"
+    },
+    {
       "id": "dbono-daniele-bonometti-gif-g09p1b",
       "author": "DBono",
       "name": "Gif",
