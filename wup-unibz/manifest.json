@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "lemonsoda-sketch-lnshky",
+      "author": "lemonsoda",
+      "name": "Simple Animation",
+      "description": "Draw shapes and animate them! Draw a path for them to follow and choose whether they rotate or not",
+      "model": "Gemini PRO",
+      "url": "tools/lemonsoda-sketch-lnshky.js",
+      "uploadedAt": "2026-01-21T13:56:56.282Z"
+    },
+    {
       "id": "cv-polyflow-f4aa2q",
       "author": "cv",
       "name": "Polyflow",
