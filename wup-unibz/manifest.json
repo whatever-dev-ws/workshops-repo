@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "chiaracres-raster-rk8wmz",
+      "author": "chiaracres",
+      "name": "Best image rasterizer",
+      "description": "Tool that transforms imported photos into unique artistic rasterized styles, allowing for complete creative control through custom parameters.",
+      "model": "Gemini Pro 3",
+      "url": "tools/chiaracres-raster-rk8wmz.js",
+      "uploadedAt": "2026-01-21T16:29:03.893Z"
+    },
+    {
       "id": "sas-raster-84q9dn",
       "author": "sas",
       "name": "Raster tool",
