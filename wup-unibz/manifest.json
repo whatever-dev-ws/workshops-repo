@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "t-socche-sketch-9t55me",
+      "author": "T.Socche",
+      "name": "Waving Writing",
+      "description": "A kinetic typography tool for a text raster where you can animate your text in a wave. You can upload your own fonts, and adjust lots of parameters. Then, do not forget to save a gif or a photo!",
+      "model": "Gemini 3 Pro",
+      "url": "tools/t-socche-sketch-9t55me.js",
+      "uploadedAt": "2026-01-21T13:39:06.696Z"
+    },
+    {
       "id": "turbotrevi-tattoobrush-xil5pq",
       "author": "turbotrevi",
       "name": "tattoo brush",
