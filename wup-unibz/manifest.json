@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "andreabinanzer-typography-tool-4d2e0a",
+      "author": "andreabinanzer",
+      "name": "Typography Tool",
+      "description": "Create stunning 3D text effects and animated \"text tunnels\" with a variety of fonts and styles. Customize the movement, colors, and intensity in real-time to export your unique typography as a PNG or GIF.",
+      "model": "Gemini 3",
+      "url": "tools/andreabinanzer-typography-tool-4d2e0a.js",
+      "uploadedAt": "2026-01-21T15:02:48.686Z"
+    },
+    {
       "id": "ff-sketch-yqxbxa",
       "author": "ff",
       "name": "BRUSH",
