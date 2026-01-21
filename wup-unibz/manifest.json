@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "maudgrn-brush-tool-3qqytp",
+      "author": "maudgrn",
+      "name": "pattern studio",
+      "description": "Pattern Studio is a p5.js tool for creating complex mandalas and tiling textures through linked radial symmetry. By placing nodes on a grid, your brush strokes are mirrored across multiple centers and adjustable slices simultaneously. The application uses clipping masks to confine art within precise \"box\" boundaries, ensuring perfect alignment for repeatable patterns. Visual drafting guides and grid-snapping allow for mathematical precision before exporting the final design as a high-resolution PNG.",
+      "model": "Gemini",
+      "url": "tools/maudgrn-brush-tool-3qqytp.js",
+      "uploadedAt": "2026-01-21T14:00:17.249Z"
+    },
+    {
       "id": "luciornick-brush-tool-4ytead",
       "author": "luciornick",
       "name": "Shape_Brush",
