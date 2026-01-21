@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "lara-sketch-fq2q9a",
+      "author": "lara",
+      "name": "CanvaFlow",
+      "description": "An animated drawing tool that allows the user to apply various drawing effects and express their creativity. The result can then be saved as a GIF.",
+      "model": "Gemini 3 Pro",
+      "url": "tools/lara-sketch-fq2q9a.js",
+      "uploadedAt": "2026-01-21T16:58:42.703Z"
+    },
+    {
       "id": "navadosha-type-tool-ix8fsm",
       "author": "Navadosha",
       "name": "Type_Tool",
