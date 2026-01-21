@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "eliasbschorr-dancing-stickman-gif-tool-8hiuxt",
+      "author": "eliasbschorr",
+      "name": "Stickman dance",
+      "description": "Customizable stickman dancing to the beat of your music, export as GIF.",
+      "model": "Gemini 3",
+      "url": "tools/eliasbschorr-dancing-stickman-gif-tool-8hiuxt.js",
+      "uploadedAt": "2026-01-21T15:30:20.350Z"
+    },
+    {
       "id": "annalena-psenner-brushtool-vq2ywe",
       "author": "annalena",
       "name": "MonoSketch",
