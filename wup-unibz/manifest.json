@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "annalena-psenner-giftool-ivwzt4",
+      "author": "annalena",
+      "name": "Giggles",
+      "description": "It's a digital utility designed for the creation of humorous animated GIFs. It allows users to create a short GIF-clip with a focus on comedic timing and meme-style formatting.",
+      "model": "Gemini Pro",
+      "url": "tools/annalena-psenner-giftool-ivwzt4.js",
+      "uploadedAt": "2026-01-21T15:09:36.304Z"
+    },
+    {
       "id": "eliasbschorr-picture-mixer-raster-tool-elia-8ottug",
       "author": "eliasbschorr",
       "name": "Picture Mixer Raster",
