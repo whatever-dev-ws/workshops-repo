@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "amelindotheduke-fallinggif-jmr8oz",
+      "author": "AmelindoTheDuke",
+      "name": "FallingGif",
+      "description": "The perfect tool to make trashy gifs ready to become the next meme of the year or the old gifs that your grandparents like to send during holidays",
+      "model": "Gemini3 Pro",
+      "url": "tools/amelindotheduke-fallinggif-jmr8oz.js",
+      "uploadedAt": "2026-01-21T16:26:03.728Z"
+    },
+    {
       "id": "chiaracres-brush-zorjbv",
       "author": "chiaracres",
       "name": "Particle dynamics",
