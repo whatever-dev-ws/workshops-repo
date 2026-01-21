@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "eliasbschorr-loop-fantasy-type-tool-elias-b-mo6uk1",
+      "author": "eliasbschorr",
+      "name": "Loop Fantasy Type",
+      "description": "Completely adjustable Typing Tool with customizable loop function",
+      "model": "Gemini 3",
+      "url": "tools/eliasbschorr-loop-fantasy-type-tool-elias-b-mo6uk1.js",
+      "uploadedAt": "2026-01-21T15:16:05.459Z"
+    },
+    {
       "id": "annalena-psenner-rastertool-1joyfb",
       "author": "annalena",
       "name": "Chromatic Wave",
