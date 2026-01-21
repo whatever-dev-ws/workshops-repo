@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "turbotrevi-secretmessages-06rl80",
+      "author": "turbotrevi",
+      "name": "secret messages",
+      "description": "tool that allows you to create a secret alphabet and write encrypted messages",
+      "model": "Chat Gpt",
+      "url": "tools/turbotrevi-secretmessages-06rl80.js",
+      "uploadedAt": "2026-01-21T13:57:04.041Z"
+    },
+    {
       "id": "lemonsoda-sketch-lnshky",
       "author": "lemonsoda",
       "name": "Simple Animation",
