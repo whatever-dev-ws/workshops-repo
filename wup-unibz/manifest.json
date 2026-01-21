@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "emilysupremacy-raster-tool-fkp289",
+      "author": "emilysupremacy",
+      "name": "Raster Tool",
+      "description": "How it works: upload an image and play around with the settings. Includes a blur brush and colour inverter function.",
+      "model": "Gemini 3",
+      "url": "tools/emilysupremacy-raster-tool-fkp289.js",
+      "uploadedAt": "2026-01-21T13:57:26.521Z"
+    },
+    {
       "id": "turbotrevi-secretmessages-06rl80",
       "author": "turbotrevi",
       "name": "secret messages",
