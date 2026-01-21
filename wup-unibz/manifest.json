@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "nrity-gif-12qntx",
+      "author": "Nrity",
+      "name": "Shooting GIF",
+      "description": "A simple tool that gives you the possibility to have a GIF that has a \"shooting star\" effect",
+      "model": "Gemini 3",
+      "url": "tools/nrity-gif-12qntx.js",
+      "uploadedAt": "2026-01-21T22:38:52.105Z"
+    },
+    {
       "id": "bi-raster-cwzaqj",
       "author": "Bi",
       "name": "neon raster",
