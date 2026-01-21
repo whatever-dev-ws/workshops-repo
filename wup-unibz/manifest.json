@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "luca-tomaselli-typography-tool-0v982f",
+      "author": "Luca Tomaselli",
+      "name": "Typography funny",
+      "description": "a simple but funny typo tool",
+      "model": "Gemini 3 pro",
+      "url": "tools/luca-tomaselli-typography-tool-0v982f.js",
+      "uploadedAt": "2026-01-21T14:16:43.299Z"
+    },
+    {
       "id": "alania-alien-vortex-brush-6zyt40",
       "author": "Alania Alien",
       "name": "Vortex Brush",
