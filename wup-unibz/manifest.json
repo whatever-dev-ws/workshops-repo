@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "bi-gif-l55jlm",
+      "author": "Bi",
+      "name": "mitosis",
+      "description": "With this tool you can slice and divide  with your mouse the “cells”, you can control them and pop them. You can also change the background and activate your webcam.",
+      "model": "Gemini 3",
+      "url": "tools/bi-gif-l55jlm.js",
+      "uploadedAt": "2026-01-21T22:25:53.791Z"
+    },
+    {
       "id": "bi-type-caiwj2",
       "author": "Bi",
       "name": "Collage",
