@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "bernardi-elisa-veil-9ihipa",
+      "author": "Bernardi_Elisa",
+      "name": "Veil",
+      "description": "Veil\r\n\r\nDesigned for those who manipulate visual reality, Veil allows you to blend and overlay images with unprecedented fluidity.\r\n\r\nManage up to four raster sources simultaneously in a single workspace, maintaining total control over every single pixel—and let your creativity run wild! Transition from duplication to fusion in just a few gestures, making raster manipulation an absolute breeze.",
+      "model": "Gemini 3 PRO",
+      "url": "tools/bernardi-elisa-veil-9ihipa.js",
+      "uploadedAt": "2026-01-21T22:56:39.702Z"
+    },
+    {
       "id": "nrity-gif-12qntx",
       "author": "Nrity",
       "name": "Shooting GIF",
