@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "amelindotheduke-3dmirrorfont-jihpwp",
+      "author": "AmelindoTheDuke",
+      "name": "3DMirrorFont",
+      "description": "A 3d writings generator, make your fonts 3D! Also there is a mirror function to make the writings infinite",
+      "model": "Gemini3 Pro",
+      "url": "tools/amelindotheduke-3dmirrorfont-jihpwp.js",
+      "uploadedAt": "2026-01-21T16:03:16.605Z"
+    },
+    {
       "id": "tatacherubin-raster-cherubin-chiara-dz1rr3",
       "author": "TataCherubin",
       "name": "The Best, raster tool",
