@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "angj-angela-santolini-raster-onejtu",
+      "author": "angj",
+      "name": "VibeGrid",
+      "description": "This raster works with your photos and your live camera. Create interesting new visuals and save your video clips as GIFs",
+      "model": "Gemini 3",
+      "url": "tools/angj-angela-santolini-raster-onejtu.js",
+      "uploadedAt": "2026-01-21T14:14:55.678Z"
+    },
+    {
       "id": "angj-angela-santolini-raster-74lo76",
       "author": "angj",
       "name": "VibeGrid",
