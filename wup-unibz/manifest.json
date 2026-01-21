@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "turbotrevi-dotartstudio-e5oc6p",
+      "author": "turbotrevi",
+      "name": "DotArt",
+      "description": "A tool that allows you to burn images through dots. You can edit dot parameters such as size, step, gamma, and colour. You can choose to upload an image from your gallery or use your camera.",
+      "model": "Chat Gpt",
+      "url": "tools/turbotrevi-dotartstudio-e5oc6p.js",
+      "uploadedAt": "2026-01-21T14:20:44.843Z"
+    },
+    {
       "id": "angela-angela-santolini-type-ecjdoq",
       "author": "angela",
       "name": "Contrast",
