@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "lemonsoda-sketch-j0g2uh",
+      "author": "lemonsoda",
+      "name": "Drift Brush",
+      "description": "Drive. Drift. Draw. Drive the cars and drift to draw on the canvas.",
+      "model": "Gemini PRO",
+      "url": "tools/lemonsoda-sketch-j0g2uh.js",
+      "uploadedAt": "2026-01-21T13:43:03.673Z"
+    },
+    {
       "id": "t-socche-sketch-9t55me",
       "author": "T.Socche",
       "name": "Waving Writing",
