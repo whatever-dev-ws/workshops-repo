@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "alania-alien-kinetic-typo-6fxq23",
+      "author": "Alania Alien",
+      "name": "Kinetic Typo",
+      "description": "An interactive kinetic typography generator with neon, pulse, and distortion effects.\r\nType your text, adjust particle size, wave distortion, glow strength, and pulse speed, then interact locally with a mouse-controlled bubble repulsion.\r\nExport your design as a PNG image or a seamlessly looping GIF.",
+      "model": "Google Gemini Pro",
+      "url": "tools/alania-alien-kinetic-typo-6fxq23.js",
+      "uploadedAt": "2026-01-21T14:20:02.619Z"
+    },
+    {
       "id": "dbono-daniele-bonometti-3d-sqjn3b",
       "author": "DBono",
       "name": "This is not a watch",
