@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "maudgrn-type-tool-bfro2t",
+      "author": "maudgrn",
+      "name": "type tool",
+      "description": "Type Tool is a p5.js environment for interactive typography that renders text inside a responsive, corner-rounding bounding box. It uses interpolation to scale individual characters based on cursor proximity or automated sine-wave pulses. The interface allows for real-time adjustments to typographic weight, spacing, and colors through a modular palette system with individual channel locks. This tool balances expressive motion design with precise layout control, supporting high-resolution PNG and GIF exports.",
+      "model": "Gemini",
+      "url": "tools/maudgrn-type-tool-bfro2t.js",
+      "uploadedAt": "2026-01-21T13:58:04.344Z"
+    },
+    {
       "id": "emilysupremacy-raster-tool-fkp289",
       "author": "emilysupremacy",
       "name": "Raster Tool",
