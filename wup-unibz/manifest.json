@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "bernardi-elisa-mega-arcade-defender-a411sc",
+      "author": "Bernardi_Elisa",
+      "name": "MEGA ARCADE DEFENDER",
+      "description": "In MEGA ARCADE DEFENDER, you're the star! Upload your image directly to the spaceship and prepare to destroy waves of aliens in 3 levels inspired by the legendary Space Invaders.\r\n\r\nPilot a spaceship by uploading a photo of yourself (or your cat, why not?)\r\n\r\nThe game captures your best moves and instantly creates a GIF. Share it and challenge your friends.",
+      "model": "Gemini 3 PRO",
+      "url": "tools/bernardi-elisa-mega-arcade-defender-a411sc.js",
+      "uploadedAt": "2026-01-21T23:07:42.224Z"
+    },
+    {
       "id": "bernardi-elisa-mega-arcade-defender-hx5rgj",
       "author": "Bernardi_Elisa",
       "name": "MEGA ARCADE DEFENDER",
