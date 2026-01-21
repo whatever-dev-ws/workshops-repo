@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "cv-kinetype-wirnwe",
+      "author": "cv",
+      "name": "Kinetype",
+      "description": "Bring words to life with hypnotic motion effects.",
+      "model": "Gemini 3 Pro, Claude Sonnet 4.5",
+      "url": "tools/cv-kinetype-wirnwe.js",
+      "uploadedAt": "2026-01-21T13:54:09.591Z"
+    },
+    {
       "id": "marinaldi-strumento-gif-qnlabo",
       "author": "Marinaldi",
       "name": "Gif tool - bouncing balls",
