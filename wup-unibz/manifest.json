@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "cv-polyflow-f4aa2q",
+      "author": "cv",
+      "name": "Polyflow",
+      "description": "Create fluid geometric morphing animation",
+      "model": "Gemini 3 Pro, Claude Sonnet 4.5",
+      "url": "tools/cv-polyflow-f4aa2q.js",
+      "uploadedAt": "2026-01-21T13:56:09.312Z"
+    },
+    {
       "id": "marinaldi-strumento-raster-yberow",
       "author": "Marinaldi",
       "name": "Raster tool - geometric based raster",
