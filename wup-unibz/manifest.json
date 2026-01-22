@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "hzischg-giftool-ubg601",
+      "author": "HZischg",
+      "name": "3D Motion Studio",
+      "description": "Transform simple shapes into dynamic, hypnotic loops using real-time deformation controls.",
+      "model": "Gemini Pro, Claude Sonnet",
+      "url": "tools/hzischg-giftool-ubg601.js",
+      "uploadedAt": "2026-01-22T09:43:01.368Z"
+    },
+    {
       "id": "carmen-anthea-sketch-0btd52",
       "author": "carmen anthea",
       "name": "LOOPA PRO MAX",
