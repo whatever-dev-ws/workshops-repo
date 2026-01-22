@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "hristinakukusheva-rastertool-q9kaar",
+      "author": "hristinakukusheva",
+      "name": "Hristina-kukusheva-rastertool",
+      "description": "Our software utilizes a custom raster engine to dynamically re-sample image data, enabling users to redefine the pixel dimensions and hexadecimal color values.",
+      "model": "Copilot GPT-5",
+      "url": "tools/hristinakukusheva-rastertool-q9kaar.js",
+      "uploadedAt": "2026-01-22T07:48:17.921Z"
+    },
+    {
       "id": "hristinakukusheva-rastertool-l2tjzq",
       "author": "hristinakukusheva",
       "name": "Hristina-kukusheva-rastertool",
