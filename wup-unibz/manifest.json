@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "hristinakukusheva-catgiftool-yym5fv",
+      "author": "hristinakukusheva",
+      "name": "hristina-kukusheva-catgif-tool",
+      "description": "A normal gif with a cat. Use the arrows to decide the cat's direction",
+      "model": "Copilot GPT-5",
+      "url": "tools/hristinakukusheva-catgiftool-yym5fv.js",
+      "uploadedAt": "2026-01-22T07:51:56.623Z"
+    },
+    {
       "id": "hristinakukusheva-rastertool-q9kaar",
       "author": "hristinakukusheva",
       "name": "Hristina-kukusheva-rastertool",
