@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "hristinakukusheva-brushtool-lol5k0",
+      "author": "hristinakukusheva",
+      "name": "Hristina-kukusheva-brushool",
+      "description": "This tool allows you to invent the shape of the brush you use",
+      "model": "Copilot GPT-5",
+      "url": "tools/hristinakukusheva-brushtool-lol5k0.js",
+      "uploadedAt": "2026-01-22T07:42:54.399Z"
+    },
+    {
       "id": "hristina-kukusheva-typetool-f7pu34",
       "author": "Hristina Kukusheva",
       "name": "Kukusheva-Hristina-type-tool",
