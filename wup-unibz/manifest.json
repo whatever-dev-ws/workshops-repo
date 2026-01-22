@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "carmen-anthea-sketch-n14tjq",
+      "author": "carmen anthea",
+      "name": "FILAMENTA PRO MAX",
+      "description": "FILAMENTA PRO transforms mouse strokes into living filament networks. As you draw, points connect to nearby points based on distance rules, forming organic meshes, neural webs, and structural line compositions. The result is a hybrid between drawing, generative art, and procedural illustration ideal for abstract graphics, data-like visuals, and experimental layouts.",
+      "model": "Gemini 3",
+      "url": "tools/carmen-anthea-sketch-n14tjq.js",
+      "uploadedAt": "2026-01-22T08:01:24.248Z"
+    },
+    {
       "id": "carmen-anthea-sketch-r4yxpu",
       "author": "carmen anthea",
       "name": "PIXELA PRO MAX",
