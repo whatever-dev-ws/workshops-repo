@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "hzischg-brushtool-27u84y",
+      "author": "HZischg",
+      "name": "canvas PRO",
+      "description": "n interactive drawing tool that simulates natural media like oil and watercolor, complete with gravity-based paint drips and dynamic symmetry modes.",
+      "model": "Gemini Pro, Claude Sonnet",
+      "url": "tools/hzischg-brushtool-27u84y.js",
+      "uploadedAt": "2026-01-22T10:01:59.540Z"
+    },
+    {
       "id": "hzischg-rastertool-f5srdg",
       "author": "HZischg",
       "name": "Raster Pro Editor",
