@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "hzischg-gif-tool2-y060e5",
+      "author": "HZischg",
+      "name": "3D Motion Studio",
+      "description": "A standalone 3D generative art studio built with p5.js, featuring real-time geometry deformation, dynamic animation presets, and video recording capabilities within a pure JavaScript interface.",
+      "model": "Gemini Pro, Claude Sonnet",
+      "url": "tools/hzischg-gif-tool2-y060e5.js",
+      "uploadedAt": "2026-01-22T11:04:13.736Z"
+    },
+    {
       "id": "hzischg-brushtool-hnmpum",
       "author": "HZischg",
       "name": "3D Motion Studio",
