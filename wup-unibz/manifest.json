@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "carmen-anthea-sketch-r4yxpu",
+      "author": "carmen anthea",
+      "name": "PIXELA PRO MAX",
+      "description": "PIXELA PRO converts images into pixel-driven graphic systems dots, lines, squares, cross-hatching, and abstract marks while giving the user full control over density, color logic, repetition, and layering. It is designed for poster design, print experimentation, editorial visuals, and generative image art.",
+      "model": "Gemini 3",
+      "url": "tools/carmen-anthea-sketch-r4yxpu.js",
+      "uploadedAt": "2026-01-22T08:00:00.283Z"
+    },
+    {
       "id": "carmen-anthea-sketch-fndjbo",
       "author": "carmen anthea",
       "name": "FOVEA PRO MAX",
