@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "hzischg-rastertool-f5srdg",
+      "author": "HZischg",
+      "name": "Raster Pro Editor",
+      "description": "An interactive digital art tool designed to transform images through experimental filters such as chromatic aberration, pixelation, and retro color grading.",
+      "model": "Gemini Pro, Claude Sonnet",
+      "url": "tools/hzischg-rastertool-f5srdg.js",
+      "uploadedAt": "2026-01-22T09:57:45.749Z"
+    },
+    {
       "id": "hzischg-rastertool-hlup77",
       "author": "HZischg",
       "name": "Raster Pro Editor",
