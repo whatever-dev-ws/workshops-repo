@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "hzischg-rastertool-hlup77",
+      "author": "HZischg",
+      "name": "Raster Pro Editor",
+      "description": "An interactive digital art tool designed to transform images through experimental filters such as chromatic aberration, pixelation, and retro color grading.",
+      "model": "Gemini Pro, Claude Sonnet",
+      "url": "tools/hzischg-rastertool-hlup77.js",
+      "uploadedAt": "2026-01-22T09:56:39.141Z"
+    },
+    {
       "id": "hzischg-giftool-ubg601",
       "author": "HZischg",
       "name": "3D Motion Studio",
