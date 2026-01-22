@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "hzischg-brushtool-t3m2q4",
+      "author": "HZischg",
+      "name": "canvas PRO",
+      "description": "A standalone, physics-based digital painting application built with p5.js featuring procedural natural media brushes and dynamic symmetry tools within a custom vanilla JavaScript interface.",
+      "model": "Gemini Pro, Claude Sonnet",
+      "url": "tools/hzischg-brushtool-t3m2q4.js",
+      "uploadedAt": "2026-01-22T10:48:06.976Z"
+    },
+    {
       "id": "hzischg-typetool-d49wdc",
       "author": "HZischg",
       "name": "Type Studio Pro",
