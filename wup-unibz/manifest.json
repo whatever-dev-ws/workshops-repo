@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "hzischg-brush-5i8avu",
+      "author": "HZischg",
+      "name": "canvas PRO",
+      "description": "A standalone, physics-based digital painting application built with p5.js featuring procedural natural media brushes and dynamic symmetry tools within a custom vanilla JavaScript interface.",
+      "model": "Gemini Pro, Claude Sonnet",
+      "url": "tools/hzischg-brush-5i8avu.js",
+      "uploadedAt": "2026-01-22T10:20:08.067Z"
+    },
+    {
       "id": "hzischg-raster-iy6y44",
       "author": "HZischg",
       "name": "Raster Pro Editor",
