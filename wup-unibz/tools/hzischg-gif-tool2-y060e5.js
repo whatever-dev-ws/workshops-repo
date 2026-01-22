@@ -1,0 +1,464 @@
+// WUP 2025/26
+// Hannah Zischg
+// 3D MOTION STUDIO - STANDALONE EVENT LISTENER VERSION
+
+// --- CONFIGURAZIONE ---
+let shape3D = { type: 'cube', vertices: [], size: 150, segments: 24 };
+let params = {
+  morph: 20, twist: 0, bulge: 0, noise: 0, wave: 30, explode: 0,
+  rotSpeed: 1.5, autoRotate: true, zoom: 1.0,
+  hue: 330, fillShape: true, wireframe: true, trails: false
+};
+
+let autoAngle = 0;
+let isRecording = false;
+let recordDuration = 5; 
+let canvas;
+let mediaRecorder;
+let recordedChunks = [];
+
+const SIDEBAR_WIDTH = 300; 
+
+function setup() {
+  // 1. Crea Interfaccia e collega gli eventi (NO p5.dom)
+  createInterfaceAndBindEvents();
+
+  // 2. Impostazioni Grafiche
+  setAttributes('preserveDrawingBuffer', true);
+  
+  // 3. Crea Canvas
+  let w = window.innerWidth - SIDEBAR_WIDTH;
+  let h = window.innerHeight;
+  canvas = createCanvas(w, h, WEBGL);
+  canvas.id('myCanvas');
+  
+  // Posizionamento Assoluto per layout stabile
+  let canvasEl = document.getElementById('myCanvas');
+  if(canvasEl) {
+    canvasEl.style.position = 'absolute';
+    canvasEl.style.top = '0px';
+    canvasEl.style.left = SIDEBAR_WIDTH + 'px';
+    canvasEl.style.zIndex = '0';
+  }
+  
+  pixelDensity(1); 
+  initShape();
+}
+
+function initShape() {
+  shape3D.vertices = [];
+  let d = shape3D.segments;
+  let s = 1;
+
+  if (shape3D.type === 'cube') {
+    shape3D.vertices = [
+      {n: [0,0,1], v:[[-s,-s,s],[s,-s,s],[s,s,s],[-s,s,s]]}, 
+      {n: [0,0,-1], v:[[-s,-s,-s],[-s,s,-s],[s,s,-s],[s,-s,s]]},
+      {n: [-1,0,0], v:[[-s,-s,-s],[-s,-s,s],[-s,s,s],[-s,s,-s]]}, 
+      {n: [1,0,0], v:[[s,-s,-s],[s,s,-s],[s,s,s],[s,-s,s]]},
+      {n: [0,1,0], v:[[-s,s,-s],[-s,s,s],[s,s,s],[s,s,-s]]}, 
+      {n: [0,-1,0], v:[[-s,-s,-s],[s,-s,-s],[s,-s,s],[-s,-s,s]]}
+    ];
+  } else if (shape3D.type === 'sphere') {
+    for(let i=0; i<=d; i++){
+      let lat = map(i,0,d,0,PI);
+      for(let j=0; j<=d; j++){
+        let lon = map(j,0,d,0,TWO_PI);
+        let x = sin(lat) * cos(lon);
+        let y = cos(lat);
+        let z = sin(lat) * sin(lon);
+        shape3D.vertices.push(createVector(x, y, z));
+      }
+    }
+  }
+}
+
+function draw() {
+  // --- GESTIONE SCIE ---
+  if (params.trails) {
+    push();
+    camera(0, 0, (height/2.0) / tan(PI*30.0 / 180.0), 0, 0, 0, 0, 1, 0);
+    translate(0, 0, -100); 
+    noStroke();
+    fill(15, 15, 20, 30); 
+    plane(width*2, height*2); 
+    pop();
+    
+    // WebGL depth buffer fix
+    let gl = this._renderer.GL;
+    gl.clear(gl.DEPTH_BUFFER_BIT);
+  } else {
+    background(15, 15, 20);
+  }
+
+  // --- RENDERING ---
+  orbitControl(); 
+  scale(params.zoom);
+
+  if (params.autoRotate) {
+    autoAngle += 0.01 * params.rotSpeed;
+    rotateX(autoAngle); rotateY(autoAngle * 0.7);
+  }
+
+  colorMode(HSB, 360, 100, 100, 1);
+  
+  if(params.fillShape) {
+    fill(params.hue, 70, 90);
+    ambientLight(60);
+    directionalLight(0, 0, 100, 0.5, 1, -1);
+    pointLight(0, 0, 100, 0, 0, 200);
+  } else {
+    noFill();
+  }
+
+  if(params.wireframe) {
+    stroke(params.hue, 90, 100);
+    strokeWeight(1.2);
+  } else {
+    noStroke();
+  }
+  
+  renderShape();
+  colorMode(RGB, 255);
+}
+
+function renderShape() {
+  let s = shape3D.size;
+  
+  if (shape3D.type === 'cube') {
+    shape3D.vertices.forEach((face, i) => {
+      push();
+      translate(face.n[0]*params.explode, face.n[1]*params.explode, face.n[2]*params.explode);
+      beginShape();
+      face.v.forEach(v => {
+        let p = applyDeform(v[0]*s, v[1]*s, v[2]*s, i);
+        vertex(p.x, p.y, p.z);
+      });
+      endShape(CLOSE);
+      pop();
+    });
+  } else {
+    let d = shape3D.segments;
+    for (let i = 0; i < d; i++) {
+      beginShape(TRIANGLE_STRIP);
+      for (let j = 0; j <= d; j++) {
+        [i * (d + 1) + j, (i + 1) * (d + 1) + j].forEach(idx => {
+          let v = shape3D.vertices[idx];
+          if(v) {
+            let p = applyDeform(v.x*s, v.y*s, v.z*s, idx);
+            let dir = p.copy().normalize();
+            p.add(dir.mult(params.explode));
+            vertex(p.x, p.y, p.z);
+          }
+        });
+      }
+      endShape();
+    }
+  }
+}
+
+function applyDeform(x, y, z, i) {
+  let p = createVector(x, y, z);
+  let t = frameCount * 0.05;
+  
+  if (params.morph > 0) p.mult(1 + (params.morph/150) * sin(t + i*0.1));
+  
+  if (params.twist > 0) {
+    let angle = (p.y / 200) * (params.twist/8);
+    let nx = p.x * cos(angle) - p.z * sin(angle);
+    let nz = p.x * sin(angle) + p.z * cos(angle);
+    p.x = nx; p.z = nz;
+  }
+  
+  if (params.bulge > 0) p.mult(1 + (params.bulge/150) * sin(p.mag() * 0.03 + t));
+  
+  if (params.noise > 0) {
+    p.x += (noise(p.x*0.01, t) - 0.5) * params.noise;
+    p.y += (noise(p.y*0.01, t+10) - 0.5) * params.noise;
+    p.z += (noise(p.z*0.01, t+20) - 0.5) * params.noise;
+  }
+  
+  if (params.wave > 0) {
+    p.x += sin(p.y * 0.04 + t) * (params.wave/1.5);
+    p.z += cos(p.y * 0.04 + t) * (params.wave/1.5);
+  }
+  
+  return p;
+}
+
+// --- EXPORT FUNCTIONS ---
+
+function handleScreenshot() {
+  saveCanvas('Design_3D', 'png');
+}
+
+function handleRecording() {
+  recordedChunks = [];
+  let stream = document.getElementById('myCanvas').captureStream(30);
+  mediaRecorder = new MediaRecorder(stream, { mimeType: 'video/webm' });
+
+  mediaRecorder.ondataavailable = (e) => {
+    if (e.data.size > 0) recordedChunks.push(e.data);
+  };
+
+  mediaRecorder.onstop = () => {
+    let blob = new Blob(recordedChunks, { type: 'video/webm' });
+    let url = URL.createObjectURL(blob);
+    let a = document.createElement('a');
+    a.href = url;
+    a.download = 'animazione.webm';
+    a.click();
+    
+    let btn = document.getElementById('btn-rec');
+    btn.innerHTML = icons.video + " REGISTRA";
+    btn.style.background = "#e0e0e0";
+    btn.style.color = "black";
+    isRecording = false;
+  };
+
+  mediaRecorder.start();
+  isRecording = true;
+  
+  let btn = document.getElementById('btn-rec');
+  btn.innerHTML = "🔴 REC...";
+  btn.style.background = "#ff1744";
+  btn.style.color = "white";
+
+  setTimeout(() => {
+    if(mediaRecorder.state === 'recording') mediaRecorder.stop();
+  }, recordDuration * 1000);
+}
+
+// --- COSTRUZIONE UI (HTML + CSS + EVENTS) ---
+
+const icons = {
+  cube: `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect></svg>`,
+  sphere: `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle></svg>`,
+  video: `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"></rect></svg>`,
+  photo: `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>`,
+  magic: `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>`
+};
+
+function createInterfaceAndBindEvents() {
+  // 1. INIEZIONE CSS
+  const css = `
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+    
+    body, html { margin: 0; padding: 0; overflow: hidden; background: #121212; width: 100%; height: 100%; }
+    
+    #sidebar-container {
+      position: absolute; left: 0; top: 0; bottom: 0; width: 300px;
+      background: #121212; color: #eee;
+      font-family: 'Inter', sans-serif;
+      display: flex; flex-direction: column;
+      border-right: 1px solid #2a2a2a;
+      overflow-y: auto; user-select: none; z-index: 100;
+    }
+    
+    .header { padding: 15px; border-bottom: 1px solid #333; }
+    .header h2 { font-size: 14px; margin: 0; color: #fff; text-transform: uppercase; letter-spacing: 1px; }
+    
+    .section { padding: 15px; border-bottom: 1px solid #222; }
+    .sec-title { font-size: 10px; font-weight: 600; color: #666; text-transform: uppercase; margin-bottom: 10px; display: block; }
+    
+    /* Buttons */
+    .geo-toggles { display: flex; gap: 5px; background: #1a1a1a; padding: 4px; border-radius: 6px; margin-bottom: 12px; }
+    .geo-btn { flex: 1; background: transparent; border: none; color: #888; padding: 8px; cursor: pointer; border-radius: 4px; display: flex; align-items: center; justify-content: center; gap: 5px; font-size: 11px; transition: 0.2s; }
+    .geo-btn.active { background: #333; color: #fff; }
+    
+    .preset-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+    .preset-btn { background: #1a1a1a; border: 1px solid #333; color: #aaa; padding: 8px; border-radius: 4px; cursor: pointer; font-size: 10px; display: flex; align-items: center; gap: 6px; transition: all 0.2s; }
+    .preset-btn:hover { border-color: #f50057; color: #fff; background: #222; }
+
+    /* Sliders */
+    .control-row { margin-bottom: 12px; }
+    .label-row { display: flex; justify-content: space-between; font-size: 11px; color: #aaa; margin-bottom: 4px; }
+    .val-disp { color: #f50057; font-weight: 600; }
+    input[type="range"] { width: 100%; cursor: pointer; height: 4px; accent-color: #f50057; }
+    
+    /* Checkbox */
+    .check-row { display: flex; gap: 10px; margin-top: 10px; }
+    .check-lbl { font-size: 11px; display: flex; align-items: center; gap: 5px; color: #ccc; cursor: pointer; }
+    input[type="checkbox"] { accent-color: #f50057; cursor: pointer; }
+
+    /* Export */
+    .export-row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 10px; }
+    .btn-exp { border: none; padding: 10px; border-radius: 4px; cursor: pointer; font-size: 11px; font-weight: 600; display: flex; justify-content: center; gap: 5px; align-items: center; }
+    .btn-rec { background: #e0e0e0; color: #000; }
+    .btn-shot { background: #222; color: #fff; border: 1px solid #333; }
+    select { width: 100%; background: #222; color: #fff; border: 1px solid #333; padding: 6px; font-size: 11px; border-radius: 4px; }
+  `;
+  
+  let s = document.createElement('style');
+  s.type = 'text/css';
+  s.appendChild(document.createTextNode(css));
+  document.head.appendChild(s);
+
+  // 2. INIEZIONE HTML (SENZA onclick)
+  let sidebar = document.createElement('div');
+  sidebar.id = 'sidebar-container';
+  sidebar.innerHTML = `
+    <div class="header">
+      <h2>3D Motion Studio</h2>
+    </div>
+
+    <div class="section">
+      <span class="sec-title">Forma & Preset</span>
+      <div class="geo-toggles">
+        <button class="geo-btn active" id="btn-cube">${icons.cube} CUBE</button>
+        <button class="geo-btn" id="btn-sphere">${icons.sphere} SPHERE</button>
+      </div>
+      <div class="preset-grid">
+         <button class="preset-btn" id="pre-cyber">${icons.magic} Cyber</button>
+         <button class="preset-btn" id="pre-liquid">${icons.magic} Liquid</button>
+         <button class="preset-btn" id="pre-chaos">${icons.magic} Chaos</button>
+         <button class="preset-btn" id="pre-zen">${icons.magic} Zen</button>
+      </div>
+    </div>
+
+    <div class="section">
+      <span class="sec-title">Deformazioni</span>
+      ${makeSliderHTML('Morph', 'morph', 0, 100, 20)}
+      ${makeSliderHTML('Twist', 'twist', 0, 100, 0)}
+      ${makeSliderHTML('Bulge', 'bulge', 0, 100, 0)}
+      ${makeSliderHTML('Noise', 'noise', 0, 100, 0)}
+      ${makeSliderHTML('Wave', 'wave', 0, 100, 30)}
+      ${makeSliderHTML('Esplodi', 'explode', 0, 200, 0)}
+    </div>
+
+    <div class="section">
+      <span class="sec-title">Stile & Camera</span>
+      ${makeSliderHTML('Colore', 'hue', 0, 360, 330)}
+      ${makeSliderHTML('Zoom', 'zoom', 0.5, 3, 1, 0.1)}
+      ${makeSliderHTML('Velocità', 'rotSpeed', 0, 5, 1.5, 0.1)}
+      
+      <div class="check-row">
+        <label class="check-lbl"><input type="checkbox" id="chk-fill" checked> Pieno</label>
+        <label class="check-lbl"><input type="checkbox" id="chk-wire" checked> Linee</label>
+        <label class="check-lbl"><input type="checkbox" id="chk-trail"> Scie</label>
+      </div>
+    </div>
+
+    <div class="section" style="border:none">
+      <span class="sec-title">Esporta</span>
+      <select id="sel-duration">
+        <option value="5">Durata: 5 Secondi</option>
+        <option value="10">Durata: 10 Secondi</option>
+        <option value="15">Durata: 15 Secondi</option>
+      </select>
+      <div class="export-row">
+        <button class="btn-exp btn-rec" id="btn-rec">${icons.video} REGISTRA</button>
+        <button class="btn-exp btn-shot" id="btn-shot">${icons.photo} FOTO</button>
+      </div>
+    </div>
+  `;
+  document.body.appendChild(sidebar);
+
+  // 3. EVENT BINDING (Il cuore del fix)
+  
+  // -- Toggles Forma --
+  document.getElementById('btn-cube').addEventListener('click', () => changeShape('cube'));
+  document.getElementById('btn-sphere').addEventListener('click', () => changeShape('sphere'));
+
+  // -- Presets --
+  const presets = ['cyber', 'liquid', 'chaos', 'zen'];
+  presets.forEach(p => {
+    document.getElementById(`pre-${p}`).addEventListener('click', () => applyPreset(p));
+  });
+
+  // -- Sliders --
+  const sliders = ['morph', 'twist', 'bulge', 'noise', 'wave', 'explode', 'hue', 'zoom', 'rotSpeed'];
+  sliders.forEach(key => {
+    const el = document.getElementById(`sld-${key}`);
+    el.addEventListener('input', (e) => {
+       let val = parseFloat(e.target.value);
+       params[key] = val;
+       document.getElementById(`val-${key}`).innerText = val; // Math.floor se int?
+    });
+  });
+
+  // -- Checkboxes --
+  const checks = ['fill', 'wire', 'trail'];
+  const pChecks = ['fillShape', 'wireframe', 'trails']; // mapping
+  checks.forEach((c, i) => {
+    document.getElementById(`chk-${c}`).addEventListener('change', (e) => {
+       params[pChecks[i]] = e.target.checked;
+    });
+  });
+
+  // -- Export --
+  document.getElementById('sel-duration').addEventListener('change', (e) => {
+     recordDuration = parseInt(e.target.value);
+  });
+  
+  document.getElementById('btn-rec').addEventListener('click', handleRecording);
+  document.getElementById('btn-shot').addEventListener('click', handleScreenshot);
+}
+
+function makeSliderHTML(label, param, min, max, val, step=1) {
+  return `
+    <div class="control-row">
+      <div class="label-row">
+        <span>${label}</span>
+        <span id="val-${param}" class="val-disp">${val}</span>
+      </div>
+      <input type="range" id="sld-${param}" min="${min}" max="${max}" step="${step}" value="${val}">
+    </div>
+  `;
+}
+
+// --- HELPER LOGIC ---
+
+function changeShape(type) {
+  shape3D.type = type;
+  initShape();
+  document.getElementById('btn-cube').classList.toggle('active', type === 'cube');
+  document.getElementById('btn-sphere').classList.toggle('active', type === 'sphere');
+}
+
+function applyPreset(name) {
+  // Reset base
+  params.morph=0; params.twist=0; params.bulge=0; params.noise=0; params.wave=0; params.explode=0;
+  params.trails=false; params.fillShape=true; params.wireframe=true; params.zoom=1;
+
+  if (name === 'cyber') {
+    changeShape('cube');
+    params.wireframe = true; params.fillShape = false;
+    params.hue = 190; params.noise = 60; params.explode = 40; params.rotSpeed = 2;
+  } 
+  else if (name === 'liquid') {
+    changeShape('sphere');
+    params.fillShape = true; params.wireframe = false;
+    params.hue = 280; params.morph = 40; params.bulge = 30; params.wave = 50; params.zoom = 1.2;
+  } 
+  else if (name === 'chaos') {
+    changeShape('cube');
+    params.fillShape = true; params.wireframe = true;
+    params.hue = 10; params.twist = 80; params.explode = 100; params.trails = true;
+  }
+  else if (name === 'zen') {
+    changeShape('sphere');
+    params.fillShape = false; params.wireframe = true;
+    params.hue = 0; params.wave = 10; params.rotSpeed = 0.5; params.zoom = 1.3;
+  }
+  
+  syncUI();
+}
+
+function syncUI() {
+  const keys = ['morph', 'twist', 'bulge', 'noise', 'wave', 'explode', 'hue', 'zoom', 'rotSpeed'];
+  keys.forEach(k => {
+    let el = document.getElementById(`sld-${k}`);
+    let val = document.getElementById(`val-${k}`);
+    if(el) el.value = params[k];
+    if(val) val.innerText = params[k];
+  });
+  
+  document.getElementById('chk-fill').checked = params.fillShape;
+  document.getElementById('chk-wire').checked = params.wireframe;
+  document.getElementById('chk-trail').checked = params.trails;
+}
+
+function windowResized() {
+  resizeCanvas(window.innerWidth - SIDEBAR_WIDTH, window.innerHeight);
+}
