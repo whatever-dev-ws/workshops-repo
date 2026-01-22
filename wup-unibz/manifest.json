@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "andreabinanzer-3d-object-game-6utn57",
+      "author": "andreabinanzer",
+      "name": "Noodle machine",
+      "description": "This machine is a creative transformation of a classic sewing machine. Instead of sewing fabric with a needle and thread, it has been rebuilt to produce fresh pasta. The original mechanical body now houses professional rollers that press and cut dough into perfect noodles.",
+      "model": "Gemini 3",
+      "url": "tools/andreabinanzer-3d-object-game-6utn57.js",
+      "uploadedAt": "2026-01-22T23:06:16.844Z"
+    },
+    {
       "id": "andreabinanzer-3dobject-game-rbe3js",
       "author": "andreabinanzer",
       "name": "Noodle machine",
