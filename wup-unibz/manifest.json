@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "carmen-anthea-sketch-fndjbo",
+      "author": "carmen anthea",
+      "name": "FOVEA PRO MAX",
+      "description": "FOVEA PRO turns text into a living visual system. Characters are rendered line-by-line and respond to cursor movement or automated motion through a bulge-based distortion engine, creating fluid, organic typographic effects suitable for posters, motion graphics, branding experiments, and generative art.",
+      "model": "Gemini 3",
+      "url": "tools/carmen-anthea-sketch-fndjbo.js",
+      "uploadedAt": "2026-01-22T07:58:44.832Z"
+    },
+    {
       "id": "hristinakukusheva-catgiftool-yym5fv",
       "author": "hristinakukusheva",
       "name": "hristina-kukusheva-catgif-tool",
