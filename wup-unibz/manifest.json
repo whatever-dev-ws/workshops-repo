@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "amelindotheduke-fallingif-w2xt7d",
+      "author": "AmelindoTheDuke",
+      "name": "FallingGif",
+      "description": "The perfect tool to make trashy gifs ready to become the next meme of the year or the old gifs that your grandparents like to send during holidays",
+      "model": "Gemini3 Pro",
+      "url": "tools/amelindotheduke-fallingif-w2xt7d.js",
+      "uploadedAt": "2026-01-22T19:52:27.131Z"
+    },
+    {
       "id": "hzischg-gif-tool2-y060e5",
       "author": "HZischg",
       "name": "3D Motion Studio",
