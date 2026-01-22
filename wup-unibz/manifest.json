@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "carmen-anthea-sketch-0btd52",
+      "author": "carmen anthea",
+      "name": "LOOPA PRO MAX",
+      "description": "LOOPA PRO enables users to draw, edit, and animate frame-by-frame sequences using a clean timeline-based workflow. Each frame is an independent canvas state, allowing precise control over motion, layering, and pacing. Animations can be previewed in real time and exported as GIFs or image sequences for production use.",
+      "model": "Gemini 3",
+      "url": "tools/carmen-anthea-sketch-0btd52.js",
+      "uploadedAt": "2026-01-22T08:02:21.314Z"
+    },
+    {
       "id": "carmen-anthea-sketch-n14tjq",
       "author": "carmen anthea",
       "name": "FILAMENTA PRO MAX",
