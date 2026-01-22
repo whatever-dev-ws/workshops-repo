@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "hzischg-typetool-d49wdc",
+      "author": "HZischg",
+      "name": "Type Studio Pro",
+      "description": "An interactive 3D motion design tool for generating experimental typography and kinetic text animations directly in the browser.",
+      "model": "Gemini Pro, Claude Sonnet",
+      "url": "tools/hzischg-typetool-d49wdc.js",
+      "uploadedAt": "2026-01-22T10:25:41.929Z"
+    },
+    {
       "id": "hzischg-brush-5i8avu",
       "author": "HZischg",
       "name": "canvas PRO",
