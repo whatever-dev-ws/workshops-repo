@@ -1929,6 +1929,13 @@
   ],
   "outputs": [
     {
+      "id": "raster-tool-t11ih9",
+      "toolId": "mees-jonker-raster-tool-qk0sa0",
+      "toolUrl": "tools/mees-jonker-raster-tool-qk0sa0.js",
+      "url": "outputs/raster-tool-t11ih9.png",
+      "createdAt": "2026-01-23T13:50:36.676Z"
+    },
+    {
       "id": "gif-tool-vwjdnp",
       "toolId": "mees-jonker-gif-tool-ukakvx",
       "toolUrl": "tools/mees-jonker-gif-tool-ukakvx.js",
