@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "mees-jonker-brush-tool2-r2jad1",
+      "author": "Mees Jonker",
+      "name": "Brush_Tool2",
+      "description": "Brush tool with automatic maze generation.",
+      "model": "Gemini Pro",
+      "url": "tools/mees-jonker-brush-tool2-r2jad1.js",
+      "uploadedAt": "2026-01-23T14:23:50.846Z"
+    },
+    {
       "id": "annagovetto-raster-wxhxti",
       "author": "annagovetto",
       "name": "raster",
