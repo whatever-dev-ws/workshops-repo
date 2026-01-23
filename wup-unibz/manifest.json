@@ -2046,6 +2046,13 @@
   ],
   "outputs": [
     {
+      "id": "symbol-raster-20260123-161838-wnmwlo",
+      "toolId": "lucaneugebauer-customshaperaster-ohzskz",
+      "toolUrl": "tools/lucaneugebauer-customshaperaster-ohzskz.js",
+      "url": "outputs/symbol-raster-20260123-161838-wnmwlo.png",
+      "createdAt": "2026-01-23T15:48:11.068Z"
+    },
+    {
       "id": "raster-design-3-vvjabr",
       "toolId": "virgiiooo-p5-szs9db",
       "toolUrl": "tools/virgiiooo-p5-szs9db.js",
