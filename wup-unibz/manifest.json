@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "lunetta-brush-tool-76xrf1",
+      "author": "lunetta",
+      "name": "Typography Brush",
+      "description": "Typography Brush is an interactive canvas that transforms text into a dynamic drawing brush. By treating individual characters as \"ink,\" the tool allows users to paint fluid typographic compositions that respond to movement, preset animations, and environmental sound.",
+      "model": "Gemini3 Flash",
+      "url": "tools/lunetta-brush-tool-76xrf1.js",
+      "uploadedAt": "2026-01-23T15:04:10.404Z"
+    },
+    {
       "id": "lunetta-typing-nlegfz",
       "author": "lunetta",
       "name": "GeoType",
