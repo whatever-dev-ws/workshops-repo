@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "laila-raster-rg7pu4",
+      "author": "laila",
+      "name": "raster",
+      "description": "An interactive raster tool that gives you an option to use a png as a raster shape.",
+      "model": "Gemini 3",
+      "url": "tools/laila-raster-rg7pu4.js",
+      "uploadedAt": "2026-01-23T13:28:39.285Z"
+    },
+    {
       "id": "laila-raster-ibfumd",
       "author": "laila",
       "name": "raster",
