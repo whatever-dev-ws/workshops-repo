@@ -1929,6 +1929,13 @@
   ],
   "outputs": [
     {
+      "id": "skin-render-si9jlv",
+      "toolId": "mees-jonker-type-tool-rl0hst",
+      "toolUrl": "tools/mees-jonker-type-tool-rl0hst.js",
+      "url": "outputs/skin-render-si9jlv.gif",
+      "createdAt": "2026-01-23T13:52:39.674Z"
+    },
+    {
       "id": "raster-tool-t11ih9",
       "toolId": "mees-jonker-raster-tool-qk0sa0",
       "toolUrl": "tools/mees-jonker-raster-tool-qk0sa0.js",
