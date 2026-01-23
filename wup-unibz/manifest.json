@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "t-socche-sketch-orr9jf",
+      "author": "T.Socche",
+      "name": "Waving Writing",
+      "description": "A kinetic typography tool raster where you can create animation in a wave like motion. You can adjust lots of parameters to personalise yuor creation. Don't forget to save a gif or a photo!",
+      "model": "Gemini 3 Pro",
+      "url": "tools/t-socche-sketch-orr9jf.js",
+      "uploadedAt": "2026-01-23T00:39:40.509Z"
+    },
+    {
       "id": "andreabinanzer-3d-object-game-6utn57",
       "author": "andreabinanzer",
       "name": "Noodle machine",
