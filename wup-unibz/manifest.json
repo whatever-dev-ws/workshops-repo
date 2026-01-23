@@ -2046,6 +2046,13 @@
   ],
   "outputs": [
     {
+      "id": "output-strumento-kinetype-q2yqjp",
+      "toolId": "marinaldi-strumento-kinetype-vr8w5z",
+      "toolUrl": "tools/marinaldi-strumento-kinetype-vr8w5z.js",
+      "url": "outputs/output-strumento-kinetype-q2yqjp.jpg",
+      "createdAt": "2026-01-23T15:41:36.177Z"
+    },
+    {
       "id": "distorted-text-transparent-o6v6a0",
       "toolId": "lucaneugebauer-spikytext-rwy2qi",
       "toolUrl": "tools/lucaneugebauer-spikytext-rwy2qi.js",
