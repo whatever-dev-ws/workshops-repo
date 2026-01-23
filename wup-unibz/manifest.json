@@ -2046,6 +2046,13 @@
   ],
   "outputs": [
     {
+      "id": "raster-tool-foto-z4jdnx",
+      "toolId": "lunetta-raster-tool-pwxk4e",
+      "toolUrl": "tools/lunetta-raster-tool-pwxk4e.js",
+      "url": "outputs/raster-tool-foto-z4jdnx.png",
+      "createdAt": "2026-01-23T15:29:22.225Z"
+    },
+    {
       "id": "brush-tool-foto-n47197",
       "toolId": "lunetta-brush-tool-76xrf1",
       "toolUrl": "tools/lunetta-brush-tool-76xrf1.js",
