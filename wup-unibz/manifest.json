@@ -1683,5 +1683,14 @@
       "url": "tools/cv-rasterlab-9wc7v8.js",
       "uploadedAt": "2026-01-21T13:27:18.700Z"
     }
+  ],
+  "outputs": [
+    {
+      "id": "lawrence-of-arabia-bw-huzrta",
+      "toolId": "andreaghirardi-kinetic-moire-generator-v2-28oq9y",
+      "toolUrl": "tools/andreaghirardi-kinetic-moire-generator-v2-28oq9y.js",
+      "url": "outputs/lawrence-of-arabia-bw-huzrta.png",
+      "createdAt": "2026-01-23T09:45:38.763Z"
+    }
   ]
 }
