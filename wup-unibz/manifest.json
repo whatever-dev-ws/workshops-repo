@@ -2046,6 +2046,13 @@
   ],
   "outputs": [
     {
+      "id": "output-secondo-strumento-jma8js",
+      "toolId": "marinaldi-secondo-strumento-brush-7jr7m1",
+      "toolUrl": "tools/marinaldi-secondo-strumento-brush-7jr7m1.js",
+      "url": "outputs/output-secondo-strumento-jma8js.jpg",
+      "createdAt": "2026-01-23T15:30:33.231Z"
+    },
+    {
       "id": "raster-art-pro-19-9c5vw0",
       "toolId": "sophiefeichter-raster-tool-4emiab",
       "toolUrl": "tools/sophiefeichter-raster-tool-4emiab.js",
