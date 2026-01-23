@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "laila-type-hryr3s",
+      "author": "Laila",
+      "name": "type",
+      "description": "An interactive and customisable type tool",
+      "model": "Gemini 3",
+      "url": "tools/laila-type-hryr3s.js",
+      "uploadedAt": "2026-01-23T13:34:34.604Z"
+    },
+    {
       "id": "laila-raster-j6elsm",
       "author": "laila",
       "name": "raster",
