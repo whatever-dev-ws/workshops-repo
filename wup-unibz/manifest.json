@@ -2082,6 +2082,13 @@
   ],
   "outputs": [
     {
+      "id": "raster-art-2-52lj33",
+      "toolId": "chiaracres-raster-rk8wmz",
+      "toolUrl": "tools/chiaracres-raster-rk8wmz.js",
+      "url": "outputs/raster-art-2-52lj33.jpg",
+      "createdAt": "2026-01-23T16:02:43.690Z"
+    },
+    {
       "id": "mio-graffito-19-ox8lv8",
       "toolId": "bi-brush-j7gbko",
       "toolUrl": "tools/bi-brush-j7gbko.js",
