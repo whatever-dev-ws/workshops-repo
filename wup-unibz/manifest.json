@@ -2046,6 +2046,13 @@
   ],
   "outputs": [
     {
+      "id": "brushahhh-e7sfyt",
+      "toolId": "lucaneugebauer-polygonbrush-kqb37h",
+      "toolUrl": "tools/lucaneugebauer-polygonbrush-kqb37h.js",
+      "url": "outputs/brushahhh-e7sfyt.png",
+      "createdAt": "2026-01-23T15:48:31.096Z"
+    },
+    {
       "id": "symbol-raster-20260123-161838-wnmwlo",
       "toolId": "lucaneugebauer-customshaperaster-ohzskz",
       "toolUrl": "tools/lucaneugebauer-customshaperaster-ohzskz.js",
