@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "lunetta-typing-nlegfz",
+      "author": "lunetta",
+      "name": "GeoType",
+      "description": "GeoType is a specialized design utility that transforms static text into dynamic, path-based compositions. It serves as a bridge between typography and geometry, allowing designers to visualize how text behaves when constrained by mathematical perimeters or fluid, hand-drawn gestures",
+      "model": "Gemini3 Flash",
+      "url": "tools/lunetta-typing-nlegfz.js",
+      "uploadedAt": "2026-01-23T14:57:29.220Z"
+    },
+    {
       "id": "lunetta-typing-6ztv57",
       "author": "lunetta",
       "name": "GeoType",
