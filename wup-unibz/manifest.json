@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "t-socche-sketch-tgupul",
+      "author": "T.Socche",
+      "name": "tRAST the process",
+      "description": "A unique image raster that allows you to personalise your photos! Upload your file and start creating amazing effects where you can change lots of parameters, including the possibility to rasterise photos with another photo. Do not forget to save a picture!",
+      "model": "Gemini 3 Pro",
+      "url": "tools/t-socche-sketch-tgupul.js",
+      "uploadedAt": "2026-01-23T00:43:32.775Z"
+    },
+    {
       "id": "t-socche-sketch-orr9jf",
       "author": "T.Socche",
       "name": "Waving Writing",
