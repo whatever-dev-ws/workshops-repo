@@ -2082,6 +2082,13 @@
   ],
   "outputs": [
     {
+      "id": "collage-artwork-10-taby7y",
+      "toolId": "bi-type-caiwj2",
+      "toolUrl": "tools/bi-type-caiwj2.js",
+      "url": "outputs/collage-artwork-10-taby7y.jpg",
+      "createdAt": "2026-01-23T16:03:52.006Z"
+    },
+    {
       "id": "artwork-3-copia-dfgyuu",
       "toolId": "chiaracres-brush-zorjbv",
       "toolUrl": "tools/chiaracres-brush-zorjbv.js",
