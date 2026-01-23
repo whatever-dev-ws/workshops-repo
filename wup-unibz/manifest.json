@@ -2001,6 +2001,13 @@
   ],
   "outputs": [
     {
+      "id": "daniele-bonometti-brush-medium-t7j1o7",
+      "toolId": "dbono-daniele-bonometti-brush-78agjj",
+      "toolUrl": "tools/dbono-daniele-bonometti-brush-78agjj.js",
+      "url": "outputs/daniele-bonometti-brush-medium-t7j1o7.png",
+      "createdAt": "2026-01-23T14:50:35.325Z"
+    },
+    {
       "id": "crazy-brush-bxngyi",
       "toolId": "ema-crazy-brush-bd5fo7",
       "toolUrl": "tools/ema-crazy-brush-bd5fo7.js",
