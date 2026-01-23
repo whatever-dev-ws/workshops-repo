@@ -2046,6 +2046,13 @@
   ],
   "outputs": [
     {
+      "id": "raster-highres-4-xou3ns",
+      "toolId": "sas-raster-84q9dn",
+      "toolUrl": "tools/sas-raster-84q9dn.js",
+      "url": "outputs/raster-highres-4-xou3ns.png",
+      "createdAt": "2026-01-23T15:34:19.154Z"
+    },
+    {
       "id": "output-terzo-strumento-n0lld8",
       "toolId": "marinaldi-terzo-strumento-brush-qgu46z",
       "toolUrl": "tools/marinaldi-terzo-strumento-brush-qgu46z.js",
