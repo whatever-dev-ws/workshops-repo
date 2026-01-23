@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "nina-malachin-nina-pictool-cvmfko",
+      "author": "Nina",
+      "name": "pic tool",
+      "description": "take unique pictures",
+      "model": "gemini 3",
+      "url": "tools/nina-malachin-nina-pictool-cvmfko.js",
+      "uploadedAt": "2026-01-23T13:43:43.017Z"
+    },
+    {
       "id": "nina-malachin-nina-typetool-q24z6o",
       "author": "Nina",
       "name": "type tool",
