@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "lunetta-raster-tool-pwxk4e",
+      "author": "lunetta",
+      "name": "Atelier Dither",
+      "description": "Atelier Dither is a sophisticated image processing tool designed to transform modern graphics and live video into high-contrast, dithered artwork. It replicates the visual aesthetic of early digital displays and analog monitors through advanced mathematical algorithms and curated color palettes.",
+      "model": "Gemini 3 flash",
+      "url": "tools/lunetta-raster-tool-pwxk4e.js",
+      "uploadedAt": "2026-01-23T15:06:01.372Z"
+    },
+    {
       "id": "lunetta-brush-tool-76xrf1",
       "author": "lunetta",
       "name": "Typography Brush",
