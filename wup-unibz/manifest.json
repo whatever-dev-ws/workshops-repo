@@ -2055,6 +2055,13 @@
   ],
   "outputs": [
     {
+      "id": "nice-drawing-1-1wf7ml",
+      "toolId": "sas-brush-c38nbm",
+      "toolUrl": "tools/sas-brush-c38nbm.js",
+      "url": "outputs/nice-drawing-1-1wf7ml.png",
+      "createdAt": "2026-01-23T15:49:07.577Z"
+    },
+    {
       "id": "brushahhh-e7sfyt",
       "toolId": "lucaneugebauer-polygonbrush-kqb37h",
       "toolUrl": "tools/lucaneugebauer-polygonbrush-kqb37h.js",
