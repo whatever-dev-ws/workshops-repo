@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "t-socche-sketch-rhgjhx",
+      "author": "T.Socche",
+      "name": "Write With Smoke",
+      "description": "Have you ever thought if it is possible to draw with smoke? Well now it is! Change parameters to make it super personal and create fantastic animations! Do not forget to save the picture!",
+      "model": "Gemini 3 Pro",
+      "url": "tools/t-socche-sketch-rhgjhx.js",
+      "uploadedAt": "2026-01-23T00:46:36.262Z"
+    },
+    {
       "id": "t-socche-sketch-nd8zdm",
       "author": "T.Socche",
       "name": "FloatingGifGenerator",
