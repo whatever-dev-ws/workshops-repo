@@ -1983,6 +1983,13 @@
   ],
   "outputs": [
     {
+      "id": "filamenta-1-qq51lm",
+      "toolId": "carmen-anthea-sketch-n14tjq",
+      "toolUrl": "tools/carmen-anthea-sketch-n14tjq.js",
+      "url": "outputs/filamenta-1-qq51lm.png",
+      "createdAt": "2026-01-23T14:39:16.990Z"
+    },
+    {
       "id": "brush-tool-ui9xht",
       "toolId": "mees-jonker-brush-tool2-r2jad1",
       "toolUrl": "tools/mees-jonker-brush-tool2-r2jad1.js",
