@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "lucaneugebauer-picturemorphing-iipr5s",
+      "author": "lucaneugebauer",
+      "name": "PictureMorphing",
+      "description": "A fun GIF tool for morphing one picture into another by rearranging the pixels. Customizable variables are canvas size, resolution and GIF duration.",
+      "model": "Gemini3 -_-",
+      "url": "tools/lucaneugebauer-picturemorphing-iipr5s.js",
+      "uploadedAt": "2026-01-23T09:04:08.728Z"
+    },
+    {
       "id": "lucaneugebauer-spikytext-rwy2qi",
       "author": "lucaneugebauer",
       "name": "SpikyText",
