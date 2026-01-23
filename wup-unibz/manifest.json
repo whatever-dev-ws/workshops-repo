@@ -2046,6 +2046,13 @@
   ],
   "outputs": [
     {
+      "id": "output-quarto-strumento-n39ogq",
+      "toolId": "marinaldi-quarto-strumento-brush-f9u94y",
+      "toolUrl": "tools/marinaldi-quarto-strumento-brush-f9u94y.js",
+      "url": "outputs/output-quarto-strumento-n39ogq.gif",
+      "createdAt": "2026-01-23T15:35:14.323Z"
+    },
+    {
       "id": "raster-highres-4-xou3ns",
       "toolId": "sas-raster-84q9dn",
       "toolUrl": "tools/sas-raster-84q9dn.js",
