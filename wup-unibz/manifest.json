@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "andreaghirardi-chemical-reactor-v6xvst",
+      "author": "andreaghirardi",
+      "name": "Chemical Reactor",
+      "description": "Gray-Scott Reaction-Diffusion Algorithm",
+      "model": "Claude Sonnet 4.5",
+      "url": "tools/andreaghirardi-chemical-reactor-v6xvst.js",
+      "uploadedAt": "2026-01-23T09:49:25.591Z"
+    },
+    {
       "id": "lucaneugebauer-picturemorphing-iipr5s",
       "author": "lucaneugebauer",
       "name": "PictureMorphing",
