@@ -2046,6 +2046,13 @@
   ],
   "outputs": [
     {
+      "id": "inverted-image-vyrd4w",
+      "toolId": "sas-type-glioxt",
+      "toolUrl": "tools/sas-type-glioxt.js",
+      "url": "outputs/inverted-image-vyrd4w.jpg",
+      "createdAt": "2026-01-23T15:31:03.221Z"
+    },
+    {
       "id": "output-secondo-strumento-jma8js",
       "toolId": "marinaldi-secondo-strumento-brush-7jr7m1",
       "toolUrl": "tools/marinaldi-secondo-strumento-brush-7jr7m1.js",
