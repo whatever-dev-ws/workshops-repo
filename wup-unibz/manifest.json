@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "virgiiooo-p5-xe6p9r",
+      "author": "virgiiooo",
+      "name": "Wave Brush Tool",
+      "description": "This interactive drawing app lets you create intricate, symmetric wave patterns with a simple stroke of your mouse. It uses a specialized \"wave brush\" engine to turn your movements into flowing strands of color that you can customize by adjusting their sharpness, thickness, and frequency. With built-in tools for harmonic color palettes and ultra-high-resolution exports, it provides a streamlined space for turning fluid gestures into professional digital art or print-ready designs.",
+      "model": "Gemini 3",
+      "url": "tools/virgiiooo-p5-xe6p9r.js",
+      "uploadedAt": "2026-01-23T11:10:27.673Z"
+    },
+    {
       "id": "virgiiooo-p5-est3xt",
       "author": "virgiiooo",
       "name": "Mandala Gif Tool",
