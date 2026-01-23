@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "sonja-tessaro-constellation-brush-tessaroson-47p0en",
+      "author": "Sonja Tessaro",
+      "name": "Constellation Brush",
+      "description": "Constellation Brush Turns text and gestures into drifting star charts. Draw with a digital brush or type your own phrases to generate interconnected constellations that float and breathe. Customize physics, colors, and fonts, then export your creation as a high-res image, SVG, or animated GIF.",
+      "model": "Gemini",
+      "url": "tools/sonja-tessaro-constellation-brush-tessaroson-47p0en.js",
+      "uploadedAt": "2026-01-23T15:58:00.908Z"
+    },
+    {
       "id": "sonja-tessaro-xerox-glitch-tessarosonja-jap1sx",
       "author": "Sonja Tessaro",
       "name": "Xerox Glitch",
