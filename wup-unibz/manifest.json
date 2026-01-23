@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "virgiiooo-p5-szs9db",
+      "author": "virgiiooo",
+      "name": "Raster Tool",
+      "description": "This pro-grade studio converts your images into experimental raster art using a library of unusual textures like ASCII, glitch strokes, and zebra stripes. By processing brightness data in real-time, the engine maps your photos onto customizable grids where you can manipulate density, rotation, and line weight to create high-contrast, editorial-style layouts. Whether you are using one of the 60 curated color palettes or stripping the background for a transparent PNG export, the tool is built to turn standard photography into bold, print-ready graphic design.",
+      "model": "Gemini 3",
+      "url": "tools/virgiiooo-p5-szs9db.js",
+      "uploadedAt": "2026-01-23T11:12:24.856Z"
+    },
+    {
       "id": "virgiiooo-p5-xe6p9r",
       "author": "virgiiooo",
       "name": "Wave Brush Tool",
