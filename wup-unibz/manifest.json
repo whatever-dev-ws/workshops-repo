@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "annagovetto-raster-wxhxti",
+      "author": "annagovetto",
+      "name": "raster",
+      "description": "A tool that transforms the uploaded photos into stylized star-shaped raster patterns",
+      "model": "gemini3",
+      "url": "tools/annagovetto-raster-wxhxti.js",
+      "uploadedAt": "2026-01-23T14:20:40.349Z"
+    },
+    {
       "id": "annagovetto-type-tri5ia",
       "author": "annagovetto",
       "name": "type",
