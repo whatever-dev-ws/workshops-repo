@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "ema-poster-gifs-qemy5s",
+      "author": "Ema",
+      "name": "Poster gifs",
+      "description": "You can make randomized Posters with Text. It's quite customizable and random and fun.\r\nBut it's actually not Posters but a gif, because you can't put a gif on a poster I think maybe?",
+      "model": "Gemini 3",
+      "url": "tools/ema-poster-gifs-qemy5s.js",
+      "uploadedAt": "2026-01-23T14:46:27.543Z"
+    },
+    {
       "id": "mees-jonker-3d-type-26k466",
       "author": "Mees Jonker",
       "name": "3DType_Tool",
