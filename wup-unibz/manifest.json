@@ -24,16 +24,16 @@
       "name": "Kinetic Type",
       "description": "A tool for creating kinetic typography with 3D effects, supporting sphere, cylinder, and fibonacci spiral shapes with customizable text and animations.",
       "model": "Claude Sonnet 4.5",
-      "url": "tools/andreaghirardi-kinetic-type-c5cx5c.js",
+      "url": "tools/ghirardi-kinetic-type-c5cx5c.js",
       "uploadedAt": "2026-01-23T09:50:28.889Z"
     },
     {
-      "id": "andreaghirardi-chemical-reactor-v6xvst",
-      "author": "andreaghirardi",
+      "id": "ghirardi-chemical-reactor-v6xvst",
+      "author": "ghirardi",
       "name": "Chemical Reactor",
       "description": "Gray-Scott Reaction-Diffusion Algorithm",
       "model": "Claude Sonnet 4.5",
-      "url": "tools/andreaghirardi-chemical-reactor-v6xvst.js",
+      "url": "tools/ghirardi-chemical-reactor-v6xvst.js",
       "uploadedAt": "2026-01-23T09:49:25.591Z"
     },
     {
@@ -1719,5 +1719,7 @@
       "url": "tools/cv-rasterlab-9wc7v8.js",
       "uploadedAt": "2026-01-21T13:27:18.700Z"
     }
+  ],
+  "outputs": [
   ]
 }
