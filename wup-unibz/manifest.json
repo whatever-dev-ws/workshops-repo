@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "sonja-tessaro-jitter-studio-tessarosonja-vbgcsy",
+      "author": "Sonja Tessaro",
+      "name": "Jitter Studio",
+      "description": "Jitter Studio is a kinetic drawing tool where every stroke comes alive. It combines frame-by-frame animation with a unique \"jitter\" physics engine, allowing you to create vibrating, breathing sketches using procedural brushes.",
+      "model": "Gemini",
+      "url": "tools/sonja-tessaro-jitter-studio-tessarosonja-vbgcsy.js",
+      "uploadedAt": "2026-01-23T15:51:40.449Z"
+    },
+    {
       "id": "sonja-tessaro-riso-matic-press-tessarosonja-tigf8a",
       "author": "Sonja Tessaro",
       "name": "Riso Matic Press",
