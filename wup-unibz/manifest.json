@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "lucaneugebauer-customshaperaster-ohzskz",
+      "author": "lucaneugebauer",
+      "name": "CustomShapeRaster",
+      "description": "A Raster tool that prompts the user to draw a shape; the uploaded image will be rasterized using this shape. It is highly modifiable, for example by adjusting the size, stroke, noise and color parameters.",
+      "model": "Gemini3 -_-",
+      "url": "tools/lucaneugebauer-customshaperaster-ohzskz.js",
+      "uploadedAt": "2026-01-23T09:00:18.590Z"
+    },
+    {
       "id": "lucaneugebauer-polygonbrush-kqb37h",
       "author": "lucaneugebauer",
       "name": "PolygonBrush",
