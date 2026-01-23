@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "marws-type-od4g02",
+      "author": "marws",
+      "name": "type",
+      "description": "interactive canvas type that can be changed in many ways",
+      "model": "gemini3",
+      "url": "tools/marws-type-od4g02.js",
+      "uploadedAt": "2026-01-23T13:16:02.550Z"
+    },
+    {
       "id": "marws-raster-v1iukp",
       "author": "marws",
       "name": "raster",
