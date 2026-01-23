@@ -1974,6 +1974,13 @@
   ],
   "outputs": [
     {
+      "id": "type-tool-1sihki",
+      "toolId": "mees-jonker-type-tool-rl0hst",
+      "toolUrl": "tools/mees-jonker-type-tool-rl0hst.js",
+      "url": "outputs/type-tool-1sihki.png",
+      "createdAt": "2026-01-23T14:31:46.613Z"
+    },
+    {
       "id": "skin-render-si9jlv",
       "toolId": "mees-jonker-type-tool-rl0hst",
       "toolUrl": "tools/mees-jonker-type-tool-rl0hst.js",
