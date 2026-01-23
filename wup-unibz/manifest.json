@@ -2082,6 +2082,13 @@
   ],
   "outputs": [
     {
+      "id": "raster-neon-7-b984co",
+      "toolId": "bi-raster-cwzaqj",
+      "toolUrl": "tools/bi-raster-cwzaqj.js",
+      "url": "outputs/raster-neon-7-b984co.png",
+      "createdAt": "2026-01-23T16:05:02.305Z"
+    },
+    {
       "id": "type-design-export-9-6tbpsh",
       "toolId": "chiaracres-type-designer-tool-8qfnos",
       "toolUrl": "tools/chiaracres-type-designer-tool-8qfnos.js",
