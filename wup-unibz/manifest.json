@@ -1719,28 +1719,5 @@
       "url": "tools/cv-rasterlab-9wc7v8.js",
       "uploadedAt": "2026-01-21T13:27:18.700Z"
     }
-  ],
-  "outputs": [
-    {
-      "id": "poster-700x1000mm-300dpi-small-yo5rap",
-      "toolId": "mees-jonker-raster-tool-qk0sa0",
-      "toolUrl": "tools/mees-jonker-raster-tool-qk0sa0.js",
-      "url": "outputs/poster-700x1000mm-300dpi-small-yo5rap.png",
-      "createdAt": "2026-01-23T10:15:20.110Z"
-    },
-    {
-      "id": "particle-sketch-26w22z",
-      "toolId": "nrity-gif-12qntx",
-      "toolUrl": "tools/nrity-gif-12qntx.js",
-      "url": "outputs/particle-sketch-26w22z.gif",
-      "createdAt": "2026-01-23T10:07:37.731Z"
-    },
-    {
-      "id": "lawrence-of-arabia-bw-huzrta",
-      "toolId": "andreaghirardi-kinetic-moire-generator-v2-28oq9y",
-      "toolUrl": "tools/andreaghirardi-kinetic-moire-generator-v2-28oq9y.js",
-      "url": "outputs/lawrence-of-arabia-bw-huzrta.png",
-      "createdAt": "2026-01-23T09:45:38.763Z"
-    }
   ]
 }
