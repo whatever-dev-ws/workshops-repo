@@ -2046,6 +2046,13 @@
   ],
   "outputs": [
     {
+      "id": "brush-tool-foto-n47197",
+      "toolId": "lunetta-brush-tool-76xrf1",
+      "toolUrl": "tools/lunetta-brush-tool-76xrf1.js",
+      "url": "outputs/brush-tool-foto-n47197.png",
+      "createdAt": "2026-01-23T15:28:52.768Z"
+    },
+    {
       "id": "output-primo-strumento-bevecu",
       "toolId": "marinaldi-primo-strumento-brush-axvz2b",
       "toolUrl": "tools/marinaldi-primo-strumento-brush-axvz2b.js",
