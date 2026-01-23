@@ -1722,6 +1722,13 @@
   ],
   "outputs": [
     {
+      "id": "poster-700x1000mm-300dpi-small-yo5rap",
+      "toolId": "mees-jonker-raster-tool-qk0sa0",
+      "toolUrl": "tools/mees-jonker-raster-tool-qk0sa0.js",
+      "url": "outputs/poster-700x1000mm-300dpi-small-yo5rap.png",
+      "createdAt": "2026-01-23T10:15:20.110Z"
+    },
+    {
       "id": "particle-sketch-26w22z",
       "toolId": "nrity-gif-12qntx",
       "toolUrl": "tools/nrity-gif-12qntx.js",
