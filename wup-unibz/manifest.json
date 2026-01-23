@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "laila-raster-j6elsm",
+      "author": "laila",
+      "name": "raster",
+      "description": "A funky and customisable type tool.",
+      "model": "Gemini 3",
+      "url": "tools/laila-raster-j6elsm.js",
+      "uploadedAt": "2026-01-23T13:31:23.468Z"
+    },
+    {
       "id": "laila-raster-rg7pu4",
       "author": "laila",
       "name": "raster",
