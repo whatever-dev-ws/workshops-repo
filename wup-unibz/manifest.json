@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "annagovetto-brush-18p78o",
+      "author": "annagovetto",
+      "name": "brush",
+      "description": "An interactive p5.js typographic brush tool that paints with text using layers, custom fonts, and effects.",
+      "model": "gemini3",
+      "url": "tools/annagovetto-brush-18p78o.js",
+      "uploadedAt": "2026-01-23T14:05:34.610Z"
+    },
+    {
       "id": "nina-malachin-nina-brushtool-jnyjb4",
       "author": "Nina",
       "name": "brush tool",
