@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "laila-gif-tmq87l",
+      "author": "laila",
+      "name": "gif",
+      "description": "A customisable gif tool.",
+      "model": "Gemini",
+      "url": "tools/laila-gif-tmq87l.js",
+      "uploadedAt": "2026-01-23T13:37:01.259Z"
+    },
+    {
       "id": "laila-type-6rextn",
       "author": "laila",
       "name": "type",
