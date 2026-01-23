@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "ema-rasterize-everything-knkefj",
+      "author": "Ema",
+      "name": "Pleboshop",
+      "description": "You can upload images, edit, rasterize, multiply and color them.\r\nIt's for everyone that doesn't want to pay 80€a month for Adobe.\r\nFuck paid subscriptions.",
+      "model": "Gemini 3",
+      "url": "tools/ema-rasterize-everything-knkefj.js",
+      "uploadedAt": "2026-01-23T14:47:33.794Z"
+    },
+    {
       "id": "ema-poster-gifs-qemy5s",
       "author": "Ema",
       "name": "Poster gifs",
