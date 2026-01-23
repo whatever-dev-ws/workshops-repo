@@ -2046,6 +2046,13 @@
   ],
   "outputs": [
     {
+      "id": "distorted-text-transparent-o6v6a0",
+      "toolId": "lucaneugebauer-spikytext-rwy2qi",
+      "toolUrl": "tools/lucaneugebauer-spikytext-rwy2qi.js",
+      "url": "outputs/distorted-text-transparent-o6v6a0.png",
+      "createdAt": "2026-01-23T15:41:21.825Z"
+    },
+    {
       "id": "gif-animation1-e6lt88",
       "toolId": "lucaneugebauer-picturemorphing-iipr5s",
       "toolUrl": "tools/lucaneugebauer-picturemorphing-iipr5s.js",
