@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "nina-malachin-nina-giftool-qt2r4y",
+      "author": "Nina",
+      "name": "gif tool",
+      "description": "make unique and abstract gifs",
+      "model": "Gemini 3",
+      "url": "tools/nina-malachin-nina-giftool-qt2r4y.js",
+      "uploadedAt": "2026-01-23T13:41:42.805Z"
+    },
+    {
       "id": "laila-gif-tmq87l",
       "author": "laila",
       "name": "gif",
