@@ -2046,6 +2046,13 @@
   ],
   "outputs": [
     {
+      "id": "typo-art-5-m7x184",
+      "toolId": "nina-malachin-nina-typetool-q24z6o",
+      "toolUrl": "tools/nina-malachin-nina-typetool-q24z6o.js",
+      "url": "outputs/typo-art-5-m7x184.png",
+      "createdAt": "2026-01-23T15:43:34.098Z"
+    },
+    {
       "id": "output-strumento-kinetype-q2yqjp",
       "toolId": "marinaldi-strumento-kinetype-vr8w5z",
       "toolUrl": "tools/marinaldi-strumento-kinetype-vr8w5z.js",
