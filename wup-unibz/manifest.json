@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "marws-raster-v1iukp",
+      "author": "marws",
+      "name": "raster",
+      "description": "art history raster",
+      "model": "gemini3",
+      "url": "tools/marws-raster-v1iukp.js",
+      "uploadedAt": "2026-01-23T13:05:18.126Z"
+    },
+    {
       "id": "marws-brush-h52oxh",
       "author": "marws",
       "name": "Brush",
