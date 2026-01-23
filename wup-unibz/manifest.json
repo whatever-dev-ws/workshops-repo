@@ -2046,6 +2046,13 @@
   ],
   "outputs": [
     {
+      "id": "raster-art-2-np3x30",
+      "toolId": "nina-malachin-nina-pictool-cvmfko",
+      "toolUrl": "tools/nina-malachin-nina-pictool-cvmfko.js",
+      "url": "outputs/raster-art-2-np3x30.png",
+      "createdAt": "2026-01-23T15:44:09.728Z"
+    },
+    {
       "id": "typo-art-5-m7x184",
       "toolId": "nina-malachin-nina-typetool-q24z6o",
       "toolUrl": "tools/nina-malachin-nina-typetool-q24z6o.js",
