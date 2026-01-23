@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "sonja-tessaro-xerox-glitch-tessarosonja-jap1sx",
+      "author": "Sonja Tessaro",
+      "name": "Xerox Glitch",
+      "description": "Xerox Glitch Tool A digital slit-scan synthesizer that reimagines typography as fluid, distorted artifacts. Inspired by the tactical misuse of old photocopiers, this tool drags, stretches, and melts text in real-time. Whether you are chasing the gritty aesthetic of 90s zines or creating clean, abstract vector forms, it captures the \"ghost in the machine\" allowing you to freeze the perfect error.",
+      "model": "Gemini",
+      "url": "tools/sonja-tessaro-xerox-glitch-tessarosonja-jap1sx.js",
+      "uploadedAt": "2026-01-23T15:54:33.140Z"
+    },
+    {
       "id": "sonja-tessaro-jitter-studio-tessarosonja-vbgcsy",
       "author": "Sonja Tessaro",
       "name": "Jitter Studio",
