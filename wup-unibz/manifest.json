@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "lucaneugebauer-spikytext-rwy2qi",
+      "author": "lucaneugebauer",
+      "name": "SpikyText",
+      "description": "A typography tool that breaks up the lines of the characters and pushes them outward, resulting in a distorted, spiky look. You can adjust the number of pieces the lines are split into, the value of the spikyness aand choose a sample.",
+      "model": "Gemini3 -_-",
+      "url": "tools/lucaneugebauer-spikytext-rwy2qi.js",
+      "uploadedAt": "2026-01-23T09:02:42.015Z"
+    },
+    {
       "id": "lucaneugebauer-customshaperaster-ohzskz",
       "author": "lucaneugebauer",
       "name": "CustomShapeRaster",
