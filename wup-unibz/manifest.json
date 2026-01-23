@@ -2046,6 +2046,13 @@
   ],
   "outputs": [
     {
+      "id": "raster-art-pro-19-9c5vw0",
+      "toolId": "sophiefeichter-raster-tool-4emiab",
+      "toolUrl": "tools/sophiefeichter-raster-tool-4emiab.js",
+      "url": "outputs/raster-art-pro-19-9c5vw0.png",
+      "createdAt": "2026-01-23T15:30:15.834Z"
+    },
+    {
       "id": "raster-tool-foto-z4jdnx",
       "toolId": "lunetta-raster-tool-pwxk4e",
       "toolUrl": "tools/lunetta-raster-tool-pwxk4e.js",
