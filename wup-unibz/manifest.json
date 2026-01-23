@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "lunetta-gif-tool-b90sq5",
+      "author": "lunetta",
+      "name": "Loop GIF",
+      "description": "Loop Gif Animator is a playful, pixel-art-focused design tool that allows users to create looping animations featuring \"kawaii\" (cute) characters. It combines a retro aesthetic—complete with scanlines and pixelated rendering—with a robust engine for path-based motion.",
+      "model": "Gemini 3 Flash",
+      "url": "tools/lunetta-gif-tool-b90sq5.js",
+      "uploadedAt": "2026-01-23T15:09:16.695Z"
+    },
+    {
       "id": "lunetta-raster-tool-pwxk4e",
       "author": "lunetta",
       "name": "Atelier Dither",
