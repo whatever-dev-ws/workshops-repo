@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "annagovetto-gif-gu2hr7",
+      "author": "annagovetto",
+      "name": "hello kitty gif",
+      "description": "An hello kitty gif in which you can add a text",
+      "model": "gemini3",
+      "url": "tools/annagovetto-gif-gu2hr7.js",
+      "uploadedAt": "2026-01-23T14:12:14.881Z"
+    },
+    {
       "id": "annagovetto-brush-18p78o",
       "author": "annagovetto",
       "name": "brush",
