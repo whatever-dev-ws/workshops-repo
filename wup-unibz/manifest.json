@@ -2082,6 +2082,13 @@
   ],
   "outputs": [
     {
+      "id": "artwork-3-copia-dfgyuu",
+      "toolId": "chiaracres-brush-zorjbv",
+      "toolUrl": "tools/chiaracres-brush-zorjbv.js",
+      "url": "outputs/artwork-3-copia-dfgyuu.png",
+      "createdAt": "2026-01-23T16:03:40.535Z"
+    },
+    {
       "id": "mio-graffito-5-ljjbjd",
       "toolId": "bi-brush-j7gbko",
       "toolUrl": "tools/bi-brush-j7gbko.js",
