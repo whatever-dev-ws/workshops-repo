@@ -2046,6 +2046,13 @@
   ],
   "outputs": [
     {
+      "id": "my-drawing-5mof26",
+      "toolId": "nina-malachin-nina-brushtool-jnyjb4",
+      "toolUrl": "tools/nina-malachin-nina-brushtool-jnyjb4.js",
+      "url": "outputs/my-drawing-5mof26.png",
+      "createdAt": "2026-01-23T15:44:46.595Z"
+    },
+    {
       "id": "generative-art-hfvngy",
       "toolId": "nina-malachin-nina-giftool-qt2r4y",
       "toolUrl": "tools/nina-malachin-nina-giftool-qt2r4y.js",
