@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "marws-gif-397ze6",
+      "author": "marws",
+      "name": "gif",
+      "description": "customizable moving form",
+      "model": "gemini3",
+      "url": "tools/marws-gif-397ze6.js",
+      "uploadedAt": "2026-01-23T13:26:53.088Z"
+    },
+    {
       "id": "laila-brush-ojwz29",
       "author": "laila",
       "name": "brush",
