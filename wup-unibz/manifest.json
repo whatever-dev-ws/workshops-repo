@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "lucaneugebauer-polygonbrush-kqb37h",
+      "author": "lucaneugebauer",
+      "name": "PolygonBrush",
+      "description": "A simple brush that lets you modify the polygon that you want to draw with.",
+      "model": "Gemini3 -_-",
+      "url": "tools/lucaneugebauer-polygonbrush-kqb37h.js",
+      "uploadedAt": "2026-01-23T08:58:24.331Z"
+    },
+    {
       "id": "t-socche-sketch-rhgjhx",
       "author": "T.Socche",
       "name": "Write With Smoke",
