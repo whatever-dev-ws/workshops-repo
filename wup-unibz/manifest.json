@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "laila-type-6rextn",
+      "author": "laila",
+      "name": "type",
+      "description": "An interactive and customisable type tool",
+      "model": "Gemini 3",
+      "url": "tools/laila-type-6rextn.js",
+      "uploadedAt": "2026-01-23T13:36:01.833Z"
+    },
+    {
       "id": "laila-type-hryr3s",
       "author": "Laila",
       "name": "type",
