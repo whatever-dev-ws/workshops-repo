@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "andreaghirardi-risograph-print-s37s4l",
+      "author": "andreaghirardi",
+      "name": "Risograph Print",
+      "description": "A tool that simulates the Risograph printing technique by separating images into color channels and applying halftone patterns with offset registration errors",
+      "model": "Claude Sonnet 4.5",
+      "url": "tools/andreaghirardi-risograph-print-s37s4l.js",
+      "uploadedAt": "2026-01-23T09:59:15.010Z"
+    },
+    {
       "id": "andreaghirardi-kinetic-type-sq1tcb",
       "author": "andreaghirardi",
       "name": "Kinetic Type",
