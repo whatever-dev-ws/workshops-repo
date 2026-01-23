@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "virgiiooo-p5-p5u8ca",
+      "author": "virgiiooo",
+      "name": "3d Typography Tool",
+      "description": "This browser-based creative suite merges experimental typography with a robust 3D WEBGL environment, allowing you to wrap live text textures around spheres, cylinders, or imported custom OBJ models. By leveraging a sine-wave kinetic engine, the tool breathes life into static characters through automated pulses in scale, tracking, and geometry radius, creating mesmerizing motion graphics in real-time. Whether you are adjusting the \"Chaos 360\" rotation for a glitch aesthetic or fine-tuning the UV-mapping for perfect repetition, the system is designed for high-fidelity output, offering transparent PNG exports and seamless looping GIF recording for professional design workflows.",
+      "model": "Gemini 3",
+      "url": "tools/virgiiooo-p5-p5u8ca.js",
+      "uploadedAt": "2026-01-23T11:01:42.908Z"
+    },
+    {
       "id": "andreaghirardi-risograph-print-s37s4l",
       "author": "andreaghirardi",
       "name": "Risograph Print",
@@ -1720,6 +1729,5 @@
       "uploadedAt": "2026-01-21T13:27:18.700Z"
     }
   ],
-  "outputs": [
-  ]
+  "outputs": []
 }
