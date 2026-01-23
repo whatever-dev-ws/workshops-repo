@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "annagovetto-type-tri5ia",
+      "author": "annagovetto",
+      "name": "type",
+      "description": "A type tool for creating designs with wave effects, image masking and customizable layouts.",
+      "model": "gemini3",
+      "url": "tools/annagovetto-type-tri5ia.js",
+      "uploadedAt": "2026-01-23T14:15:47.639Z"
+    },
+    {
       "id": "annagovetto-gif-gu2hr7",
       "author": "annagovetto",
       "name": "hello kitty gif",
