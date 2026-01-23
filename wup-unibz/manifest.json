@@ -2046,6 +2046,13 @@
   ],
   "outputs": [
     {
+      "id": "loop-3rfjvd",
+      "toolId": "lunetta-gif-tool-b90sq5",
+      "toolUrl": "tools/lunetta-gif-tool-b90sq5.js",
+      "url": "outputs/loop-3rfjvd.gif",
+      "createdAt": "2026-01-23T15:31:08.712Z"
+    },
+    {
       "id": "inverted-image-vyrd4w",
       "toolId": "sas-type-glioxt",
       "toolUrl": "tools/sas-type-glioxt.js",
