@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "andreaghirardi-kinetic-type-sq1tcb",
+      "author": "andreaghirardi",
+      "name": "Kinetic Type",
+      "description": "A tool for creating kinetic typography with 3D effects, supporting sphere, cylinder, and fibonacci spiral shapes with customizable text and animations.",
+      "model": "Claude Sonnet 4.5",
+      "url": "tools/andreaghirardi-kinetic-type-sq1tcb.js",
+      "uploadedAt": "2026-01-23T09:52:57.111Z"
+    },
+    {
       "id": "andreaghirardi-kinetic-type-c5cx5c",
       "author": "andreaghirardi",
       "name": "Kinetic Type",
