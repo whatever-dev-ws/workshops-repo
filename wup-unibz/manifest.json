@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "sonja-tessaro-riso-matic-press-tessarosonja-tigf8a",
+      "author": "Sonja Tessaro",
+      "name": "Riso Matic Press",
+      "description": "Riso-Matic Press is an interactive digital offset simulator. It deconstructs your images into CMYK halftone layers, allowing you to manipulate ink registration, texture, and dot patterns before exporting as high-res raster or vector SVG files.",
+      "model": "Gemini",
+      "url": "tools/sonja-tessaro-riso-matic-press-tessarosonja-tigf8a.js",
+      "uploadedAt": "2026-01-23T15:48:38.375Z"
+    },
+    {
       "id": "lunetta-gif-tool-b90sq5",
       "author": "lunetta",
       "name": "Loop GIF",
