@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "nina-malachin-nina-brushtool-jnyjb4",
+      "author": "Nina",
+      "name": "brush tool",
+      "description": "play with this unique brush on ur canvas",
+      "model": "gemini 3",
+      "url": "tools/nina-malachin-nina-brushtool-jnyjb4.js",
+      "uploadedAt": "2026-01-23T13:45:59.548Z"
+    },
+    {
       "id": "nina-malachin-nina-pictool-cvmfko",
       "author": "Nina",
       "name": "pic tool",
