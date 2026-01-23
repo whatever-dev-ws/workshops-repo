@@ -2046,6 +2046,13 @@
   ],
   "outputs": [
     {
+      "id": "output-terzo-strumento-n0lld8",
+      "toolId": "marinaldi-terzo-strumento-brush-qgu46z",
+      "toolUrl": "tools/marinaldi-terzo-strumento-brush-qgu46z.js",
+      "url": "outputs/output-terzo-strumento-n0lld8.gif",
+      "createdAt": "2026-01-23T15:33:09.241Z"
+    },
+    {
       "id": "type-design-ebcvcu",
       "toolId": "julie-l-typeblast-testtool-eimfsm",
       "toolUrl": "tools/julie-l-typeblast-testtool-eimfsm.js",
