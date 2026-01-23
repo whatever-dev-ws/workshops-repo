@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "virgiiooo-p5-ev0f8a",
+      "author": "virgiiooo",
+      "name": "Mandala Gif Tool",
+      "description": "This studio transforms mathematical curves into glowing, symmetric patterns that pulse and evolve as you watch. It combines fluid motion with neon colors to create mesmerizing mandalas that you can fully customize—from the way they \"breathe\" to their intricate geometric shapes. Built for creators, it offers professional tools to capture high-quality video loops and high-resolution prints for instant sharing or professional design work.",
+      "model": "Gemini 3",
+      "url": "tools/virgiiooo-p5-ev0f8a.js",
+      "uploadedAt": "2026-01-23T11:05:16.628Z"
+    },
+    {
       "id": "virgiiooo-p5-5y0fyj",
       "author": "virgiiooo",
       "name": "3d Typography Tool",
