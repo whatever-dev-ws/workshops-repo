@@ -2046,6 +2046,13 @@
   ],
   "outputs": [
     {
+      "id": "output-strumento-raster-q82o99",
+      "toolId": "marinaldi-strumento-raster-yberow",
+      "toolUrl": "tools/marinaldi-strumento-raster-yberow.js",
+      "url": "outputs/output-strumento-raster-q82o99.png",
+      "createdAt": "2026-01-23T15:39:05.572Z"
+    },
+    {
       "id": "art-4-ohnp3r",
       "toolId": "andreabinanzer-brush-tool-wzuyd6",
       "toolUrl": "tools/andreabinanzer-brush-tool-wzuyd6.js",
