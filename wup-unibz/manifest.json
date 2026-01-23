@@ -1927,5 +1927,13 @@
       "uploadedAt": "2026-01-21T13:27:18.700Z"
     }
   ],
-  "outputs": []
+  "outputs": [
+    {
+      "id": "gif-tool-vwjdnp",
+      "toolId": "mees-jonker-gif-tool-ukakvx",
+      "toolUrl": "tools/mees-jonker-gif-tool-ukakvx.js",
+      "url": "outputs/gif-tool-vwjdnp.gif",
+      "createdAt": "2026-01-23T13:48:46.526Z"
+    }
+  ]
 }
