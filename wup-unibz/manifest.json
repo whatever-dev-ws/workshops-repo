@@ -2046,6 +2046,13 @@
   ],
   "outputs": [
     {
+      "id": "output-strumento-gif-t2wiez",
+      "toolId": "marinaldi-strumento-gif-qnlabo",
+      "toolUrl": "tools/marinaldi-strumento-gif-qnlabo.js",
+      "url": "outputs/output-strumento-gif-t2wiez.gif",
+      "createdAt": "2026-01-23T15:36:46.710Z"
+    },
+    {
       "id": "output-quarto-strumento-n39ogq",
       "toolId": "marinaldi-quarto-strumento-brush-f9u94y",
       "toolUrl": "tools/marinaldi-quarto-strumento-brush-f9u94y.js",
