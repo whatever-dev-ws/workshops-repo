@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "mees-jonker-3d-type-26k466",
+      "author": "Mees Jonker",
+      "name": "3DType_Tool",
+      "description": "Type tool that writes on any 3D model object uploaded, usefull for textures",
+      "model": "Gemini Pro",
+      "url": "tools/mees-jonker-3d-type-26k466.js",
+      "uploadedAt": "2026-01-23T14:34:47.545Z"
+    },
+    {
       "id": "mees-jonker-brush-tool2-r2jad1",
       "author": "Mees Jonker",
       "name": "Brush_Tool2",
