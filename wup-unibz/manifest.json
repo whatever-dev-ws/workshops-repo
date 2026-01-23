@@ -2046,6 +2046,13 @@
   ],
   "outputs": [
     {
+      "id": "gif-animation1-e6lt88",
+      "toolId": "lucaneugebauer-picturemorphing-iipr5s",
+      "toolUrl": "tools/lucaneugebauer-picturemorphing-iipr5s.js",
+      "url": "outputs/gif-animation1-e6lt88.gif",
+      "createdAt": "2026-01-23T15:40:45.767Z"
+    },
+    {
       "id": "output-strumento-raster-q82o99",
       "toolId": "marinaldi-strumento-raster-yberow",
       "toolUrl": "tools/marinaldi-strumento-raster-yberow.js",
