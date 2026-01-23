@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "t-socche-sketch-nd8zdm",
+      "author": "T.Socche",
+      "name": "FloatingGifGenerator",
+      "description": "A gif generator of floating particles. Follow the main instruction and trust the process! You can then adjust lots of parameters to make it super personalised! Do not forget to save the gif!",
+      "model": "Gemini 3 Pro",
+      "url": "tools/t-socche-sketch-nd8zdm.js",
+      "uploadedAt": "2026-01-23T00:45:10.443Z"
+    },
+    {
       "id": "t-socche-sketch-tgupul",
       "author": "T.Socche",
       "name": "tRAST the process",
