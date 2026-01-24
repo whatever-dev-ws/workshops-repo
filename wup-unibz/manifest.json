@@ -2082,6 +2082,13 @@
   ],
   "outputs": [
     {
+      "id": "raster-art-6-2cg0tl",
+      "toolId": "t-socche-sketch-tgupul",
+      "toolUrl": "tools/t-socche-sketch-tgupul.js",
+      "url": "outputs/raster-art-6-2cg0tl.png",
+      "createdAt": "2026-01-24T12:12:46.696Z"
+    },
+    {
       "id": "techno-visuals-3-wa2hee",
       "toolId": "t-socche-sketch-nd8zdm",
       "toolUrl": "tools/t-socche-sketch-nd8zdm.js",
