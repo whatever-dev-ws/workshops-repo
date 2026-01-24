@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "andreaghirardi-chemical-reactor-k3q0ut",
+      "author": "andreaghirardi",
+      "name": "Chemical Reactor V2",
+      "description": "Gray-Scott Reaction-Diffusion Algorithm",
+      "model": "Claude Sonnet 4.5",
+      "url": "tools/andreaghirardi-chemical-reactor-k3q0ut.js",
+      "uploadedAt": "2026-01-24T12:46:01.728Z"
+    },
+    {
       "id": "sonja-tessaro-constellation-brush-tessaroson-47p0en",
       "author": "Sonja Tessaro",
       "name": "Constellation Brush",
