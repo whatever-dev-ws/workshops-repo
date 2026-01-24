@@ -2082,6 +2082,13 @@
   ],
   "outputs": [
     {
+      "id": "moire-kinetic-c2mfyk",
+      "toolId": "andreaghirardi-kinetic-moire-generator-v2-28oq9y",
+      "toolUrl": "tools/andreaghirardi-kinetic-moire-generator-v2-28oq9y.js",
+      "url": "outputs/moire-kinetic-c2mfyk.gif",
+      "createdAt": "2026-01-24T12:43:37.891Z"
+    },
+    {
       "id": "kinetic-type-20260120-135547-fvwu4g",
       "toolId": "andreaghirardi-kinetic-type-sq1tcb",
       "toolUrl": "tools/andreaghirardi-kinetic-type-sq1tcb.js",
