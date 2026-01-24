@@ -2082,6 +2082,13 @@
   ],
   "outputs": [
     {
+      "id": "moire-frame-eyofto",
+      "toolId": "andreaghirardi-kinetic-moire-generator-v2-28oq9y",
+      "toolUrl": "tools/andreaghirardi-kinetic-moire-generator-v2-28oq9y.js",
+      "url": "outputs/moire-frame-eyofto.png",
+      "createdAt": "2026-01-24T12:44:04.517Z"
+    },
+    {
       "id": "moire-kinetic-c2mfyk",
       "toolId": "andreaghirardi-kinetic-moire-generator-v2-28oq9y",
       "toolUrl": "tools/andreaghirardi-kinetic-moire-generator-v2-28oq9y.js",
