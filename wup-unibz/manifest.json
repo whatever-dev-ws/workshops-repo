@@ -2082,6 +2082,13 @@
   ],
   "outputs": [
     {
+      "id": "kinetic-text-jqbcms",
+      "toolId": "t-socche-sketch-orr9jf",
+      "toolUrl": "tools/t-socche-sketch-orr9jf.js",
+      "url": "outputs/kinetic-text-jqbcms.png",
+      "createdAt": "2026-01-24T12:13:32.438Z"
+    },
+    {
       "id": "raster-art-6-2cg0tl",
       "toolId": "t-socche-sketch-tgupul",
       "toolUrl": "tools/t-socche-sketch-tgupul.js",
