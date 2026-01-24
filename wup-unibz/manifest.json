@@ -2082,6 +2082,13 @@
   ],
   "outputs": [
     {
+      "id": "raster-print-xada6f",
+      "toolId": "andreaghirardi-risograph-print-s37s4l",
+      "toolUrl": "tools/andreaghirardi-risograph-print-s37s4l.js",
+      "url": "outputs/raster-print-xada6f.png",
+      "createdAt": "2026-01-24T12:42:05.805Z"
+    },
+    {
       "id": "colosseum-rome-italy-s2kwqi",
       "toolId": "virgiiooo-p5-szs9db",
       "toolUrl": "tools/virgiiooo-p5-szs9db.js",
