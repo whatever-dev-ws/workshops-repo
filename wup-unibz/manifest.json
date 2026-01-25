@@ -2127,6 +2127,13 @@
   ],
   "outputs": [
     {
+      "id": "raster-full-31q9dz",
+      "toolId": "tatacherubin-raster-cherubin-chiara-dz1rr3",
+      "toolUrl": "tools/tatacherubin-raster-cherubin-chiara-dz1rr3.js",
+      "url": "outputs/raster-full-31q9dz.png",
+      "createdAt": "2026-01-25T17:46:45.955Z"
+    },
+    {
       "id": "punk-avatar-lite-74ezpk",
       "toolId": "tatacherubin-gif-cherubin-chiara-h19vrp",
       "toolUrl": "tools/tatacherubin-gif-cherubin-chiara-h19vrp.js",
