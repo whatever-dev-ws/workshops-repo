@@ -2127,6 +2127,13 @@
   ],
   "outputs": [
     {
+      "id": "emoji-face-1pgjo8",
+      "toolId": "tatacherubin-brush-cherubin-chiara-uq11wo",
+      "toolUrl": "tools/tatacherubin-brush-cherubin-chiara-uq11wo.js",
+      "url": "outputs/emoji-face-1pgjo8.png",
+      "createdAt": "2026-01-25T17:21:37.529Z"
+    },
+    {
       "id": "kinetictype-img-21-v9uz4r",
       "toolId": "alania-alien-kinetic-typo-6fxq23",
       "toolUrl": "tools/alania-alien-kinetic-typo-6fxq23.js",
