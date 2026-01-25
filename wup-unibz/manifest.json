@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "luca-tomaselli-gif-tool-187b6j",
+      "author": "Luca Tomaselli",
+      "name": "Gif Tool",
+      "description": "a gif converter tool",
+      "model": "Gemini 3 pro",
+      "url": "tools/luca-tomaselli-gif-tool-187b6j.js",
+      "uploadedAt": "2026-01-25T16:17:28.580Z"
+    },
+    {
       "id": "luca-tomaselli-typography-fcruff",
       "author": "Luca Tomaselli",
       "name": "Typography",
