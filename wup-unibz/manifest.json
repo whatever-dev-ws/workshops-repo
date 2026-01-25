@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "luca-tomaselli-raster-too-38u3w6",
+      "author": "Luca Tomaselli",
+      "name": "Raster tool",
+      "description": "raster tool",
+      "model": "Gemini 3 pro",
+      "url": "tools/luca-tomaselli-raster-too-38u3w6.js",
+      "uploadedAt": "2026-01-25T16:19:03.520Z"
+    },
+    {
       "id": "luca-tomaselli-brush-tool-m67qix",
       "author": "Luca Tomaselli",
       "name": "Brush Tool",
