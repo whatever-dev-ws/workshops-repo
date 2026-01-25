@@ -2091,6 +2091,13 @@
   ],
   "outputs": [
     {
+      "id": "output-loopfantasy-type-tool-nxzj3z",
+      "toolId": "eliasbschorr-loop-fantasy-type-tool-elias-b-mo6uk1",
+      "toolUrl": "tools/eliasbschorr-loop-fantasy-type-tool-elias-b-mo6uk1.js",
+      "url": "outputs/output-loopfantasy-type-tool-nxzj3z.gif",
+      "createdAt": "2026-01-25T13:32:58.001Z"
+    },
+    {
       "id": "output1-stickman-tool-koybmt",
       "toolId": "eliasbschorr-dancing-stickman-gif-tool-8hiuxt",
       "toolUrl": "tools/eliasbschorr-dancing-stickman-gif-tool-8hiuxt.js",
