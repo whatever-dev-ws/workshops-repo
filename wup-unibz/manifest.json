@@ -2091,6 +2091,13 @@
   ],
   "outputs": [
     {
+      "id": "output1-stickman-tool-koybmt",
+      "toolId": "eliasbschorr-dancing-stickman-gif-tool-8hiuxt",
+      "toolUrl": "tools/eliasbschorr-dancing-stickman-gif-tool-8hiuxt.js",
+      "url": "outputs/output1-stickman-tool-koybmt.gif",
+      "createdAt": "2026-01-25T13:16:10.705Z"
+    },
+    {
       "id": "moire-frame-eyofto",
       "toolId": "andreaghirardi-kinetic-moire-generator-v2-28oq9y",
       "toolUrl": "tools/andreaghirardi-kinetic-moire-generator-v2-28oq9y.js",
