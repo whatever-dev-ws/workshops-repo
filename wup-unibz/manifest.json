@@ -2127,6 +2127,13 @@
   ],
   "outputs": [
     {
+      "id": "mandala-2026-1-25-1822-2-9jvcwp",
+      "toolId": "cv-symflow-7w4q7b",
+      "toolUrl": "tools/cv-symflow-7w4q7b.js",
+      "url": "outputs/mandala-2026-1-25-1822-2-9jvcwp.png",
+      "createdAt": "2026-01-25T19:05:52.166Z"
+    },
+    {
       "id": "morph-design-15-fy62dm",
       "toolId": "cv-polyflow-f4aa2q",
       "toolUrl": "tools/cv-polyflow-f4aa2q.js",
