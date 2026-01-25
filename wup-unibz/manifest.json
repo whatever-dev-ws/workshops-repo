@@ -2091,6 +2091,13 @@
   ],
   "outputs": [
     {
+      "id": "blend-raster-5-h2wfts",
+      "toolId": "eliasbschorr-picture-mixer-raster-tool-elia-8ottug",
+      "toolUrl": "tools/eliasbschorr-picture-mixer-raster-tool-elia-8ottug.js",
+      "url": "outputs/blend-raster-5-h2wfts.png",
+      "createdAt": "2026-01-25T13:37:24.964Z"
+    },
+    {
       "id": "blend-raster-1-mkkgo5",
       "toolId": "eliasbschorr-picture-mixer-raster-tool-elia-8ottug",
       "toolUrl": "tools/eliasbschorr-picture-mixer-raster-tool-elia-8ottug.js",
