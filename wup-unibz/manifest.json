@@ -2127,6 +2127,13 @@
   ],
   "outputs": [
     {
+      "id": "graphic-lab-4k-7hvmoe",
+      "toolId": "ema-just-type-something-k206vg",
+      "toolUrl": "tools/ema-just-type-something-k206vg.js",
+      "url": "outputs/graphic-lab-4k-7hvmoe.jpg",
+      "createdAt": "2026-01-25T19:32:16.550Z"
+    },
+    {
       "id": "kinetype-2-0oy64e",
       "toolId": "cv-kinetype-wirnwe",
       "toolUrl": "tools/cv-kinetype-wirnwe.js",
