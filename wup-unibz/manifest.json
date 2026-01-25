@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "id": "luca-tomaselli-typography-fcruff",
+      "author": "Luca Tomaselli",
+      "name": "Typography",
+      "description": "an animated typography tool",
+      "model": "Gemini 3 pro",
+      "url": "tools/luca-tomaselli-typography-fcruff.js",
+      "uploadedAt": "2026-01-25T16:16:25.851Z"
+    },
+    {
       "id": "andreaghirardi-chemical-reactor-k3q0ut",
       "author": "andreaghirardi",
       "name": "Chemical Reactor V2",
